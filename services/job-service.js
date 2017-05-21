@@ -5,7 +5,7 @@ var Happner = require('happner-2');
 var dateFormat = require('dateformat');
 
 var jobBuilder = new (require('../builders/job-builder'))();
-var happnerConfig = require('../happner-config');
+var configService = require('../services/config-service');
 
 function JobService() {
 }
@@ -40,9 +40,9 @@ JobService.prototype.getJobs = function (protocol, version) {
         jobBuilder
             .withHeading('happner protocol specification')
             .withStep('start happner server')
-            .withParameters({
-                config: happnerConfig
-            })
+            //.withParameters({
+            //    config: configService.getConfig()
+            //})
             .withDoFunc(function (params, cb) {
 
                 var __this = this;
@@ -63,9 +63,9 @@ JobService.prototype.getJobs = function (protocol, version) {
         jobBuilder
             .withHeading('create happner client')
             .withStep('create happner client')
-            .withParameters({
-                config: happnerConfig
-            })
+            //.withParameters({
+            //    config: configService.getConfig()
+            //})
             .withDoFunc(function (params, cb) {
 
                 var __this = this;

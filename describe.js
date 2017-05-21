@@ -54,5 +54,7 @@ function processJobs(jobs) {
 }
 
 var jobs = jobService.getJobs(protocol, version);
+
+console.log('JOBS: ', jobs);
 processJobs(jobs);
 
