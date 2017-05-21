@@ -3,7 +3,7 @@ module.exports = {
     happn: {
         port: 50505,
         persist: true,
-        //secure: true,
+        secure: false,
         //adminPassword: 'password',
         log_level: 'info|error|warning',
         services: {

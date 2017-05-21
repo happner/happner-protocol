@@ -1,28 +1,3 @@
-/*
- {
- heading:'happn protocol specification',
- step:'start happn server',
- parameters:{
- config:serviceConfig
- },
- do:function(params, cb){
-
- var _this = this;
-
- happn.service.create(params.config, function(e, service){
-
- currentService = service;
-
- _this.output.push('##PROTOCOL VERSION: ' + protocol);
- _this.output.push('###HAPPN VERSION: ' + version);
- _this.output.push('####RUN: ' + dateFormat(now, "yyyy mmmm dd hh:MM"));
-
- cb(null, _this.output);
- });
- }
- },
- */
-
 module.exports = JobBuilder;
 
 function JobBuilder() {
