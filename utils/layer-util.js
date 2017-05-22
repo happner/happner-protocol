@@ -1,9 +1,10 @@
-var jsonUtil = require('../utils/json-util');
+var jsonUtil = require('json-util');
 var TestError = require('../errors/test-error');
-var ephemeralService = require('./ephemeral-service');
-var ephemerals = ephemeralService.getEpehemerals();
+var ephemeralUtil = require('./ephemeral-util');
+var ephemerals = ephemeralUtil.getEpehemerals();
 
 module.exports = {
+
     getInboundLayers: function (currentJob) {
 
         console.log('CURRENT JOB: ', currentJob);
@@ -26,6 +27,7 @@ module.exports = {
             }
         ];
     },
+
     getOutboundLayers: function (currentJob) {
         return [
 

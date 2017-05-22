@@ -1,4 +1,4 @@
-var layerService = require('./layer-service');
+var layerService = require('./../services/layer-service');
 
 module.exports = {
 

@@ -5,7 +5,7 @@ var Happner = require('happner-2');
 var dateFormat = require('dateformat');
 
 var jobBuilder = new (require('../builders/job-builder'))();
-var configService = require('../services/config-service');
+var configService = require('config-util');
 
 function JobService() {
 }
@@ -40,9 +40,6 @@ JobService.prototype.getJobs = function (protocol, version) {
         jobBuilder
             .withHeading('happner protocol specification')
             .withStep('start happner server')
-            //.withParameters({
-            //    config: configService.getConfig()
-            //})
             .withDoFunc(function (params, cb) {
 
                 var __this = this;
@@ -63,26 +60,19 @@ JobService.prototype.getJobs = function (protocol, version) {
         jobBuilder
             .withHeading('create happner client')
             .withStep('create happner client')
-            //.withParameters({
-            //    config: configService.getConfig()
-            //})
             .withDoFunc(function (params, cb) {
 
                 var __this = this;
                 self.__client = new Happner.MeshClient({secure: false, port: 50505});
 
-                __this.output = ['client created'];
-
                 self.__client.login()
 
                     .then(function () {
+
                         var token = self.__client.token;
-                        __this.output.push('client logged in with session id: ' + self.__client.data.session.id);
 
                         self.__client.disconnect({revokeSession: true}, function (e) {
                             if (!e) console.log('disconnection went fine, we have revoked the token ' + token);
-
-                            __this.output.push('client disconnected and session revoked');
 
                             cb(null, __this.output);
                         });
