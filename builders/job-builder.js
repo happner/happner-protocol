@@ -1,6 +1,6 @@
 module.exports = JobBuilder;
 
-var configService = require('../services/config-service');
+var configUtil = require('../utils/config-util');
 
 function JobBuilder() {
 }
@@ -25,6 +25,15 @@ JobBuilder.prototype.withDoFunc = function (doFunc) {
     return this;
 };
 
+JobBuilder.prototype.clear = function(){
+    this.__heading = null;
+    this.__step = null;
+    this.__parameters = null;
+    this.__doFunc = null;
+
+    return this;
+};
+
 JobBuilder.prototype.build = function () {
 
     var result = {
@@ -35,7 +44,7 @@ JobBuilder.prototype.build = function () {
         output: []
     };
 
-    result.parameters.config = configService.getConfig(result);
+    result.parameters.config = configUtil.getConfig(result);
 
     return result;
 };

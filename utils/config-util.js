@@ -1,4 +1,5 @@
-var layerService = require('./../services/layer-service');
+var layerUtil = require('./../utils/layer-util');
+var path = require('path');
 
 module.exports = {
 
@@ -22,13 +23,13 @@ module.exports = {
                     },
                     data: {
                         config: {
-                            filename: __dirname + '/db/testnode_db.nedb'
+                            filename: path.join(__dirname, '..', path.sep, 'db', path.sep, 'testnode_db.nedb')
                         }
                     },
                     protocol: {
                         config: {
-                            inboundLayers: layerService.getInboundLayers(currentJob),
-                            outboundLayers: layerService.getOutboundLayers(currentJob)
+                            inboundLayers: layerUtil.getInboundLayers(currentJob),
+                            outboundLayers: layerUtil.getOutboundLayers(currentJob)
                         }
                     }
                 }

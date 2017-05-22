@@ -5,39 +5,35 @@ var pkg = require([__dirname, 'node_modules', 'happner-2', 'package.json'].join(
 var protocol = pkg.protocol;
 var version = pkg.version;
 
-var jobService = new (require('./services/job-service'))();
+var jobUtil = require('./utils/job-util');
 var reportUtil = require('./utils/report-util');
 
 var protocolReport = [];
-var currentJob;
 
 function processJobs(jobs) {
 
     async.eachSeries(jobs, function (job, jobCB) {
 
-        job.output = [];//reset this
+        job.do(job.parameters, function (e, output) {
 
-        currentJob = job;
+            if (e)
+                return jobCB(e);
 
-        currentJob.do(currentJob.parameters, function (e, output) {
+            if (job.heading)
+                protocolReport.push('#' + job.heading + '\r\n');
 
-            if (e) return jobCB(e);
+            if (job.text)
+                protocolReport.push('###' + job.text + '\r\n');
 
-            if (currentJob.output) {
+            if (job.description)
+                protocolReport.push('*' + job.description + '*\r\n');
 
-                if (currentJob.heading)
-                    protocolReport.push('#' + currentJob.heading + '\r\n');
-
-                if (currentJob.text)
-                    protocolReport.push('###' + currentJob.text + '\r\n');
-
-                if (currentJob.description)
-                    protocolReport.push('*' + currentJob.description + '*\r\n');
-
-                currentJob.output.forEach(function (line) {
+            if (job.output) {
+                job.output.forEach(function (line) {
                     protocolReport.push(line);
                 });
             }
+
             jobCB();
         });
 
@@ -53,8 +49,8 @@ function processJobs(jobs) {
     });
 }
 
-var jobs = jobService.getJobs(protocol, version);
+var jobs = jobUtil.getJobs(protocol, version);
 
-console.log('JOBS: ', jobs);
+//console.log(jobs);
 processJobs(jobs);
 

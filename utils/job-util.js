@@ -1,84 +1,140 @@
-module.exports = JobService;
-
 var Happner = require('happner-2');
-
-var dateFormat = require('dateformat');
+var HappnerClient = require('happner-client');
 
 var jobBuilder = new (require('../builders/job-builder'))();
-var configService = require('config-util');
 
-function JobService() {
-}
+module.exports = {
 
-JobService.prototype.getJobs = function (protocol, version) {
+    getJobs: function (protocol, version) {
 
-    var self = this;
-    var now = new Date();
+        var self = this;
+        var now = new Date();
 
-    /*
-     jobs to return:
-     - create Happner service
-     - mesh events:
-     - 'endpoint-reconnect-scheduled'
-     - 'endpoint-reconnect-successful'
-     - 'connection-ended'
-     - client:
-     - connect to server
-     - disconnect from server
-     - define model
-     -> existing server component
-     -> non-existent server component
-     - subscribe to events
-     - unsubscribe from events
-     - receive events
-     - call remote functions
-     - set data
+        /*
+         jobs to return:
+         - create Happner service
+         - mesh events:
+         - 'endpoint-reconnect-scheduled'
+         - 'endpoint-reconnect-successful'
+         - 'connection-ended'
+         - client:
+         - connect to server
+         - disconnect from server
+         - define model
+         -> existing server component
+         -> non-existent server component
+         - subscribe to events
+         - unsubscribe from events
+         - receive events
+         - call remote functions
+         - set data
 
-     */
+         */
 
-    return [
-        jobBuilder
-            .withHeading('happner protocol specification')
-            .withStep('start happner server')
-            .withDoFunc(function (params, cb) {
+        return [
+            /*
+             create Happner server
+             */
+            jobBuilder
+                .withHeading('happner protocol specification')
+                .withStep('start happner server')
+                .withDoFunc(function (params, cb) {
 
-                var __this = this;
+                    var __this = this;
 
-                Happner.create(params.config, function (e, service) {
+                    Happner.create(params.config, function (e, service) {
+                        self.__happner = service;
+                        cb(null, __this.output);
+                    });
+                })
+                .build(),
+            /*
+             create mesh client and api model
+             */
+            jobBuilder
+                .clear()
+                .withHeading('create happner client')
+                .withStep('create happner client and construct api')
+                .withDoFunc(function (params, cb) {
 
-                    // keep happner in scope of the JobService
-                    self.__happner = service;
+                    var __this = this;
 
-                    __this.output.push('##PROTOCOL VERSION: ' + protocol);
-                    __this.output.push('###HAPPN VERSION: ' + version);
-                    __this.output.push('####RUN: ' + dateFormat(now, "yyyy mmmm dd hh:MM"));
+                    self.__client = new HappnerClient();
+
+                    self.__model = {
+                        testApi: {
+                            version: '1.0.0',
+                            methods: {
+                                getWidget: {}
+                            }
+                        }
+                    };
+
+                    self.__api = self.__client.construct(self.__model);
 
                     cb(null, __this.output);
-                });
-            })
-            .build(),
-        jobBuilder
-            .withHeading('create happner client')
-            .withStep('create happner client')
-            .withDoFunc(function (params, cb) {
+                })
+                .build(),
+            /*
+             login
+             */
+            jobBuilder
+                .clear()
+                .withHeading('connect happner client to happner server')
+                .withStep('connect happner client to happner server')
+                .withDoFunc(function (params, cb) {
 
-                var __this = this;
-                self.__client = new Happner.MeshClient({secure: false, port: 50505});
+                    var __this = this;
 
-                self.__client.login()
+                    self.__client.connect({secure: false, port: 50505})
 
-                    .then(function () {
-
-                        var token = self.__client.token;
-
-                        self.__client.disconnect({revokeSession: true}, function (e) {
-                            if (!e) console.log('disconnection went fine, we have revoked the token ' + token);
-
+                        .then(function () {
+                            self.__clientToken = self.__client.token;
                             cb(null, __this.output);
                         });
+                })
+                .build(),
+            /*
+             disconnect client
+             */
+            jobBuilder
+                .clear()
+                .withHeading('disconnect from happner server')
+                .withStep('disconnect from happner server')
+                .withDoFunc(function (params, cb) {
 
-                    });
-            })
-            .build()
-    ];
+                    var __this = this;
+
+                    self.__client.disconnect(function (err, result) {
+
+                        if (err)
+                            return cb(err);
+
+                        cb(null, __this.output);
+                    })
+
+                })
+                .build(),
+            /*
+             stop happner server
+             */
+            jobBuilder
+                .clear()
+                .withHeading('stopping happner server')
+                .withStep('stopping happner server')
+                .withDoFunc(function (params, cb) {
+
+                    var _this = this;
+
+                    self.__happner.stop(function (e) {
+
+                        if (e)
+                            return cb(e);
+
+                        cb(null, _this.output);
+                    })
+                })
+                .build()
+        ];
+    }
 };

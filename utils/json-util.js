@@ -10,15 +10,15 @@ module.exports = {
 
             if (value && this.key && (ephemerals && ephemerals[this.key] != null)) {
 
-                if (ephemerals[this.key].condition) this.update(ephemerals[this.key].condition(value, this, cloned));
-
-                else this.update('{{' + ephemerals[this.key] + '}}');
+                if (ephemerals[this.key].condition)
+                    this.update(ephemerals[this.key].condition(value, this, cloned));
+                else
+                    this.update('{{' + ephemerals[this.key] + '}}');
             }
 
         });
 
         return '```json\r\n' + JSON.stringify(cloned, null, 2) + '\r\n```'
-
     }
 };
 
