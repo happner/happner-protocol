@@ -6,7 +6,7 @@ var JobBuilder = require('../../builders/job-builder');
 var JobUtil = require('../../utils/job-util');
 var ReportUtil = require('../../utils/report-util');
 
-var DescribeProtocol = require('../../describe');
+var DescribeProtocol = require('../../protocol-describer');
 
 describe('unit - describe tests', function () {
 

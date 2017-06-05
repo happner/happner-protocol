@@ -1,7 +1,7 @@
 var expect = require('expect.js');
 var path = require('path');
 
-var DescribeProtocol = require('../../describe');
+var DescribeProtocol = require('../../protocol-describer');
 
 describe('unit - describe tests', function () {
 
