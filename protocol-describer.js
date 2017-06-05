@@ -58,6 +58,5 @@ DescribeProtocol.prototype.processJobs = function (callback) {
         console.log('protocol described in file: ' + reportFile);
 
         callback();
-        //process.exit();
     });
 };

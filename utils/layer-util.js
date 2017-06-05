@@ -7,13 +7,9 @@ module.exports = {
 
     getInboundLayers: function (currentJob) {
 
-        //console.log('CURRENT JOB (IN): ', currentJob);
-
         return [
 
             function (message, cb) {
-
-                //console.log('IN MESSAGE: ', message);
 
                 if (!currentJob)
                     return cb(null, message);
@@ -33,13 +29,9 @@ module.exports = {
 
     getOutboundLayers: function (currentJob) {
 
-        //console.log('CURRENT JOB (OUT): ', currentJob);
-
         return [
 
             function (message, cb) {
-
-                //console.log('OUT MESSAGE: ', message);
 
                 if (!currentJob)
                     return cb(null, message);
