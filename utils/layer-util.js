@@ -16,7 +16,7 @@ module.exports = {
 
                 console.log('JOB OUTPUT (IN): ', currentJob.output);
 
-                currentJob.output.push('###client -> server');
+                currentJob.output.push('### client -> server');
                 currentJob.output.push(jsonUtil.cleanJSON(message.raw));
 
                 if (['throw/an/error', '/ALL@/subscription/error', 'remove/failed'].indexOf(message.raw.path) > -1)
@@ -38,7 +38,7 @@ module.exports = {
 
                 console.log('JOB OUTPUT (OUT): ', currentJob.output);
 
-                currentJob.output.push('###server -> client');
+                currentJob.output.push('### server -> client');
 
                 if (message.response)
                     currentJob.output.push(jsonUtil.cleanJSON(message.response));
