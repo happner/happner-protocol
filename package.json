@@ -4,14 +4,14 @@
   "protocol": "1.1.0",
   "scripts": {
     "test": "mocha test 'test/unit/*.js'",
-    "describe": "node describe && node describe_old"
+    "describe": "node describe"
   },
   "dependencies": {
+    "happner-2":"latest",
     "request": "^2.81.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "happner-2":"latest",
     "mini-mock": "^0.1.0",
     "mocha": "^3.4.2"
   }
