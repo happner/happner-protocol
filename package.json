@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
+    "happner-2":"latest",
     "mini-mock": "^0.1.0",
     "mocha": "^3.4.2"
   }
