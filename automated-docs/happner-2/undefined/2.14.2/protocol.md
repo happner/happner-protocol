@@ -1,6 +1,8 @@
 # happner protocol specification
 
-## PROTOCOL VERSION: undefined | HAPPNER VERSION: 2.14.2 | RUN: 2017 June 05 04:32
+## PROTOCOL VERSION: undefined
+## HAPPNER VERSION: 2.14.2
+## RUN: 2017 June 05 04:38
 ### creating Happner server
 ### client -> server
 ```json
@@ -71,7 +73,7 @@
 ```json
 {
   "data": {
-    "id": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "id": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -102,7 +104,7 @@
   "data": {
     "can": "can"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -116,13 +118,13 @@
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496673176083,
+    "modified": 1496673517591,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -138,7 +140,7 @@
     "name": "TestNode",
     "components": {}
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -154,13 +156,13 @@
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176175,
+    "modified": 1496673517661,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -191,7 +193,7 @@
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -222,13 +224,13 @@
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176181,
+    "modified": 1496673517670,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -240,7 +242,7 @@
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -257,7 +259,7 @@
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -274,7 +276,7 @@
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -291,7 +293,7 @@
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -308,7 +310,7 @@
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -327,7 +329,7 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -341,7 +343,7 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -355,7 +357,7 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -369,7 +371,7 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -383,7 +385,7 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -905,7 +907,7 @@
       "noStore": true
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -1427,13 +1429,13 @@
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -1464,7 +1466,7 @@
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -1495,20 +1497,22 @@
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176519,
+    "modified": 1496673517984,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
 ```
 # create happner client
 
-## PROTOCOL VERSION: undefined | HAPPNER VERSION: 2.14.2 | RUN: 2017 June 05 04:32
+## PROTOCOL VERSION: undefined
+## HAPPNER VERSION: 2.14.2
+## RUN: 2017 June 05 04:38
 ### creating Happner server
 ### client -> server
 ```json
@@ -1579,7 +1583,7 @@
 ```json
 {
   "data": {
-    "id": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "id": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -1610,7 +1614,7 @@
   "data": {
     "can": "can"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -1624,13 +1628,13 @@
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496673176083,
+    "modified": 1496673517591,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -1646,7 +1650,7 @@
     "name": "TestNode",
     "components": {}
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -1662,13 +1666,13 @@
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176175,
+    "modified": 1496673517661,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -1699,7 +1703,7 @@
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -1730,13 +1734,13 @@
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176181,
+    "modified": 1496673517670,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -1748,7 +1752,7 @@
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -1765,7 +1769,7 @@
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -1782,7 +1786,7 @@
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -1799,7 +1803,7 @@
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -1816,7 +1820,7 @@
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -1835,7 +1839,7 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -1849,7 +1853,7 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -1863,7 +1867,7 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -1877,7 +1881,7 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -1891,7 +1895,7 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -2413,7 +2417,7 @@
       "noStore": true
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -2935,13 +2939,13 @@
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -2972,7 +2976,7 @@
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -3003,13 +3007,13 @@
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176519,
+    "modified": 1496673517984,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -3018,7 +3022,9 @@ creating model:
 [object Object]
 # connect happner client to happner server
 
-## PROTOCOL VERSION: undefined | HAPPNER VERSION: 2.14.2 | RUN: 2017 June 05 04:32
+## PROTOCOL VERSION: undefined
+## HAPPNER VERSION: 2.14.2
+## RUN: 2017 June 05 04:38
 ### creating Happner server
 ### client -> server
 ```json
@@ -3089,7 +3095,7 @@ creating model:
 ```json
 {
   "data": {
-    "id": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "id": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -3120,7 +3126,7 @@ creating model:
   "data": {
     "can": "can"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -3134,13 +3140,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496673176083,
+    "modified": 1496673517591,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -3156,7 +3162,7 @@ creating model:
     "name": "TestNode",
     "components": {}
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -3172,13 +3178,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176175,
+    "modified": 1496673517661,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -3209,7 +3215,7 @@ creating model:
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -3240,13 +3246,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176181,
+    "modified": 1496673517670,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -3258,7 +3264,7 @@ creating model:
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -3275,7 +3281,7 @@ creating model:
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -3292,7 +3298,7 @@ creating model:
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -3309,7 +3315,7 @@ creating model:
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -3326,7 +3332,7 @@ creating model:
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -3345,7 +3351,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -3359,7 +3365,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -3373,7 +3379,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -3387,7 +3393,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -3401,7 +3407,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -3923,7 +3929,7 @@ creating model:
       "noStore": true
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -4445,13 +4451,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -4482,7 +4488,7 @@ creating model:
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -4513,13 +4519,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176519,
+    "modified": 1496673517984,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -4595,7 +4601,7 @@ creating model:
 ```json
 {
   "data": {
-    "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -4619,7 +4625,9 @@ creating model:
 ```
 # subscribe to mesh event
 
-## PROTOCOL VERSION: undefined | HAPPNER VERSION: 2.14.2 | RUN: 2017 June 05 04:32
+## PROTOCOL VERSION: undefined
+## HAPPNER VERSION: 2.14.2
+## RUN: 2017 June 05 04:38
 ### creating Happner server
 ### client -> server
 ```json
@@ -4690,7 +4698,7 @@ creating model:
 ```json
 {
   "data": {
-    "id": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "id": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -4721,7 +4729,7 @@ creating model:
   "data": {
     "can": "can"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -4735,13 +4743,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496673176083,
+    "modified": 1496673517591,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -4757,7 +4765,7 @@ creating model:
     "name": "TestNode",
     "components": {}
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -4773,13 +4781,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176175,
+    "modified": 1496673517661,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -4810,7 +4818,7 @@ creating model:
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -4841,13 +4849,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176181,
+    "modified": 1496673517670,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -4859,7 +4867,7 @@ creating model:
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4876,7 +4884,7 @@ creating model:
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4893,7 +4901,7 @@ creating model:
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4910,7 +4918,7 @@ creating model:
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4927,7 +4935,7 @@ creating model:
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4946,7 +4954,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -4960,7 +4968,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -4974,7 +4982,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -4988,7 +4996,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -5002,7 +5010,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -5524,7 +5532,7 @@ creating model:
       "noStore": true
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -6046,13 +6054,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -6083,7 +6091,7 @@ creating model:
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -6114,13 +6122,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176519,
+    "modified": 1496673517984,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -6196,7 +6204,7 @@ creating model:
 ```json
 {
   "data": {
-    "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -6225,7 +6233,7 @@ creating model:
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "timeout": 60000
   }
@@ -6746,25 +6754,25 @@ creating model:
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496673176474,
+      "modified": 1496673517958,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+      "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "get"
   }
 }
@@ -6776,7 +6784,7 @@ creating model:
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "event_type": "set",
     "meta": {
@@ -6798,7 +6806,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "on"
   }
 }
@@ -6808,9 +6816,9 @@ creating model:
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/*",
+  "path": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/*",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6829,7 +6837,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "on"
   }
 }
@@ -6841,13 +6849,13 @@ creating model:
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "timeout": 10000,
     "noStore": true
@@ -6858,10 +6866,10 @@ creating model:
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
   "_meta": {
@@ -6869,9 +6877,9 @@ creating model:
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "consistency": 2,
-    "publicationId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d-7"
+    "publicationId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9-7"
   },
   "__outbound": true
 }
@@ -6880,10 +6888,10 @@ creating model:
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
   "_meta": {
@@ -6892,7 +6900,7 @@ creating model:
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "set"
   }
 }
@@ -6906,7 +6914,7 @@ creating model:
   "data": {
     "key": "value"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "noStore": true,
     "meta": {
@@ -6921,7 +6929,7 @@ creating model:
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -6931,7 +6939,7 @@ creating model:
       }
     ]
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 10000,
     "noStore": true
@@ -6949,9 +6957,9 @@ creating model:
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "consistency": 2,
-    "publicationId": "31ac7240-25fa-4a39-8b93-5fb8610127c5-14",
+    "publicationId": "b23d0d81-cf49-4d1a-a597-7487397d532a-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true
@@ -6970,13 +6978,13 @@ creating model:
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/*",
-    "action": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/*",
+    "action": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "consistency": 2,
-    "publicationId": "31ac7240-25fa-4a39-8b93-5fb8610127c5-15"
+    "publicationId": "b23d0d81-cf49-4d1a-a597-7487397d532a-15"
   },
   "__outbound": true
 }
@@ -6993,7 +7001,7 @@ creating model:
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -7011,19 +7019,21 @@ creating model:
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
 ```
 # disconnect from happner server
 
-## PROTOCOL VERSION: undefined | HAPPNER VERSION: 2.14.2 | RUN: 2017 June 05 04:32
+## PROTOCOL VERSION: undefined
+## HAPPNER VERSION: 2.14.2
+## RUN: 2017 June 05 04:38
 ### creating Happner server
 ### client -> server
 ```json
@@ -7094,7 +7104,7 @@ creating model:
 ```json
 {
   "data": {
-    "id": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "id": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -7125,7 +7135,7 @@ creating model:
   "data": {
     "can": "can"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -7139,13 +7149,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496673176083,
+    "modified": 1496673517591,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -7161,7 +7171,7 @@ creating model:
     "name": "TestNode",
     "components": {}
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -7177,13 +7187,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176175,
+    "modified": 1496673517661,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -7214,7 +7224,7 @@ creating model:
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -7245,13 +7255,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176181,
+    "modified": 1496673517670,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -7263,7 +7273,7 @@ creating model:
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -7280,7 +7290,7 @@ creating model:
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -7297,7 +7307,7 @@ creating model:
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -7314,7 +7324,7 @@ creating model:
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -7331,7 +7341,7 @@ creating model:
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -7350,7 +7360,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -7364,7 +7374,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -7378,7 +7388,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -7392,7 +7402,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -7406,7 +7416,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -7928,7 +7938,7 @@ creating model:
       "noStore": true
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -8450,13 +8460,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -8487,7 +8497,7 @@ creating model:
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -8518,13 +8528,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176519,
+    "modified": 1496673517984,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -8600,7 +8610,7 @@ creating model:
 ```json
 {
   "data": {
-    "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -8629,7 +8639,7 @@ creating model:
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "timeout": 60000
   }
@@ -9150,25 +9160,25 @@ creating model:
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496673176474,
+      "modified": 1496673517958,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+      "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "get"
   }
 }
@@ -9180,7 +9190,7 @@ creating model:
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "event_type": "set",
     "meta": {
@@ -9202,7 +9212,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "on"
   }
 }
@@ -9212,9 +9222,9 @@ creating model:
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/*",
+  "path": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/*",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9233,7 +9243,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "on"
   }
 }
@@ -9245,13 +9255,13 @@ creating model:
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "timeout": 10000,
     "noStore": true
@@ -9262,10 +9272,10 @@ creating model:
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
   "_meta": {
@@ -9273,9 +9283,9 @@ creating model:
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "consistency": 2,
-    "publicationId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d-7"
+    "publicationId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9-7"
   },
   "__outbound": true
 }
@@ -9284,10 +9294,10 @@ creating model:
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
   "_meta": {
@@ -9296,7 +9306,7 @@ creating model:
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "set"
   }
 }
@@ -9310,7 +9320,7 @@ creating model:
   "data": {
     "key": "value"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "noStore": true,
     "meta": {
@@ -9325,7 +9335,7 @@ creating model:
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -9335,7 +9345,7 @@ creating model:
       }
     ]
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 10000,
     "noStore": true
@@ -9353,9 +9363,9 @@ creating model:
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "consistency": 2,
-    "publicationId": "31ac7240-25fa-4a39-8b93-5fb8610127c5-14",
+    "publicationId": "b23d0d81-cf49-4d1a-a597-7487397d532a-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true
@@ -9374,13 +9384,13 @@ creating model:
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/*",
-    "action": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/*",
+    "action": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "consistency": 2,
-    "publicationId": "31ac7240-25fa-4a39-8b93-5fb8610127c5-15"
+    "publicationId": "b23d0d81-cf49-4d1a-a597-7487397d532a-15"
   },
   "__outbound": true
 }
@@ -9397,7 +9407,7 @@ creating model:
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -9415,12 +9425,12 @@ creating model:
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -9430,7 +9440,7 @@ creating model:
 {
   "action": "disconnect",
   "eventId": 8,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "timeout": 60000
   }
@@ -9445,14 +9455,16 @@ creating model:
     "status": "ok",
     "published": false,
     "eventId": 8,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "disconnect"
   }
 }
 ```
 # stopping happner server
 
-## PROTOCOL VERSION: undefined | HAPPNER VERSION: 2.14.2 | RUN: 2017 June 05 04:32
+## PROTOCOL VERSION: undefined
+## HAPPNER VERSION: 2.14.2
+## RUN: 2017 June 05 04:38
 ### creating Happner server
 ### client -> server
 ```json
@@ -9523,7 +9535,7 @@ creating model:
 ```json
 {
   "data": {
-    "id": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "id": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -9554,7 +9566,7 @@ creating model:
   "data": {
     "can": "can"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -9568,13 +9580,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496673176083,
+    "modified": 1496673517591,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -9590,7 +9602,7 @@ creating model:
     "name": "TestNode",
     "components": {}
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -9606,13 +9618,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176175,
+    "modified": 1496673517661,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -9643,7 +9655,7 @@ creating model:
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -9674,13 +9686,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176181,
+    "modified": 1496673517670,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -9692,7 +9704,7 @@ creating model:
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9709,7 +9721,7 @@ creating model:
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9726,7 +9738,7 @@ creating model:
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9743,7 +9755,7 @@ creating model:
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9760,7 +9772,7 @@ creating model:
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9779,7 +9791,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -9793,7 +9805,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -9807,7 +9819,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -9821,7 +9833,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -9835,7 +9847,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "on"
   }
 }
@@ -10357,7 +10369,7 @@ creating model:
       "noStore": true
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -10879,13 +10891,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -10916,7 +10928,7 @@ creating model:
       }
     }
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 60000
   }
@@ -10947,13 +10959,13 @@ creating model:
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496673176519,
+    "modified": 1496673517984,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -11029,7 +11041,7 @@ creating model:
 ```json
 {
   "data": {
-    "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -11058,7 +11070,7 @@ creating model:
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "timeout": 60000
   }
@@ -11579,25 +11591,25 @@ creating model:
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496673176474,
+      "modified": 1496673517958,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+      "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496673176474,
+    "modified": 1496673517958,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "get"
   }
 }
@@ -11609,7 +11621,7 @@ creating model:
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "event_type": "set",
     "meta": {
@@ -11631,7 +11643,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "on"
   }
 }
@@ -11641,9 +11653,9 @@ creating model:
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/*",
+  "path": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/*",
   "data": null,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -11662,7 +11674,7 @@ creating model:
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "on"
   }
 }
@@ -11674,13 +11686,13 @@ creating model:
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "timeout": 10000,
     "noStore": true
@@ -11691,10 +11703,10 @@ creating model:
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
   "_meta": {
@@ -11702,9 +11714,9 @@ creating model:
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "consistency": 2,
-    "publicationId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d-7"
+    "publicationId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9-7"
   },
   "__outbound": true
 }
@@ -11713,10 +11725,10 @@ creating model:
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "921d1998-e6f2-44a7-81c5-92dc36d84c6d"
+      "id": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9"
     }
   },
   "_meta": {
@@ -11725,7 +11737,7 @@ creating model:
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "set"
   }
 }
@@ -11739,7 +11751,7 @@ creating model:
   "data": {
     "key": "value"
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "noStore": true,
     "meta": {
@@ -11754,7 +11766,7 @@ creating model:
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -11764,7 +11776,7 @@ creating model:
       }
     ]
   },
-  "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+  "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
   "options": {
     "timeout": 10000,
     "noStore": true
@@ -11782,9 +11794,9 @@ creating model:
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "consistency": 2,
-    "publicationId": "31ac7240-25fa-4a39-8b93-5fb8610127c5-14",
+    "publicationId": "b23d0d81-cf49-4d1a-a597-7487397d532a-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true
@@ -11803,13 +11815,13 @@ creating model:
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/*",
-    "action": "/SET@/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/*",
+    "action": "/SET@/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "consistency": 2,
-    "publicationId": "31ac7240-25fa-4a39-8b93-5fb8610127c5-15"
+    "publicationId": "b23d0d81-cf49-4d1a-a597-7487397d532a-15"
   },
   "__outbound": true
 }
@@ -11826,7 +11838,7 @@ creating model:
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -11844,12 +11856,12 @@ creating model:
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/921d1998-e6f2-44a7-81c5-92dc36d84c6d/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "31ac7240-25fa-4a39-8b93-5fb8610127c5",
+    "sessionId": "b23d0d81-cf49-4d1a-a597-7487397d532a",
     "action": "set"
   }
 }
@@ -11859,7 +11871,7 @@ creating model:
 {
   "action": "disconnect",
   "eventId": 8,
-  "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+  "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
   "options": {
     "timeout": 60000
   }
@@ -11874,7 +11886,7 @@ creating model:
     "status": "ok",
     "published": false,
     "eventId": 8,
-    "sessionId": "921d1998-e6f2-44a7-81c5-92dc36d84c6d",
+    "sessionId": "cf8c17e7-7bca-4b48-a0d3-0b4436d7a4d9",
     "action": "disconnect"
   }
 }
