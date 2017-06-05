@@ -1,37 +1,39 @@
 var fs = require('fs-extra');
 var path = require('path');
 
-module.exports = {
+module.exports = ReportUtil;
 
-    writeReportToFile: function (protocolReport, protocol, version) {
+function ReportUtil() {
+}
 
-        protocol = protocol == null ? 'unknown-version' : '1.0.0';
+ReportUtil.prototype.writeReportToFile = function (protocolReport, protocol, version) {
 
-        var versionFolder = path.join(__dirname, '..', path.sep, 'automated-docs', path.sep, 'happner-2',
-            path.sep, protocol, path.sep, version);
+    protocol = protocol == null ? 'unknown-version' : '1.0.0';
 
-        var currentFolder = path.join(__dirname, '..', path.sep, 'automated-docs', path.sep, 'happner-2',
-            path.sep, 'current', path.sep, version);
+    var versionFolder = path.join(__dirname, '..', path.sep, 'automated-docs', path.sep, 'happner-2',
+        path.sep, protocol, path.sep, version);
 
-        fs.ensureDirSync(versionFolder);
-        fs.ensureDirSync(currentFolder);
+    var currentFolder = path.join(__dirname, '..', path.sep, 'automated-docs', path.sep, 'happner-2',
+        path.sep, 'current', path.sep, version);
 
-        var outputFile = path.join(versionFolder, path.sep, 'protocol.md');
-        var outputFileCurrent = path.join(currentFolder, path.sep, 'protocol.md');
+    fs.ensureDirSync(versionFolder);
+    fs.ensureDirSync(currentFolder);
 
-        try {
-            fs.unlinkSync(outputFile);
-            fs.unlinkSync(outputFileCurrent);
+    var outputFile = path.join(versionFolder, path.sep, 'protocol.md');
+    var outputFileCurrent = path.join(currentFolder, path.sep, 'protocol.md');
 
-        } catch (e) {
-        }
+    try {
+        fs.unlinkSync(outputFile);
+        fs.unlinkSync(outputFileCurrent);
 
-        protocolReport.forEach(function (line) {
-
-            fs.appendFileSync(outputFile, line + '\r\n');
-            fs.appendFileSync(outputFileCurrent, line + '\r\n');
-        });
-
-        return outputFile;
+    } catch (e) {
     }
+
+    protocolReport.forEach(function (line) {
+
+        fs.appendFileSync(outputFile, line + '\r\n');
+        fs.appendFileSync(outputFileCurrent, line + '\r\n');
+    });
+
+    return outputFile;
 };
