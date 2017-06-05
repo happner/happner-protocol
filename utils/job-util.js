@@ -23,9 +23,9 @@ JobUtil.prototype.getJobs = function (protocol, version) {
 
             var __this = this;
 
-            __this.output.push('## PROTOCOL VERSION: ' + protocol);
-            __this.output.push('### HAPPNER VERSION: ' + version);
-            __this.output.push('#### RUN: ' + dateFormat(now, "yyyy mmmm dd hh:MM"));
+            __this.output.push('## PROTOCOL VERSION: ' + protocol + ' | HAPPNER VERSION: ' + version + ' | RUN: ' + dateFormat(now, "yyyy mmmm dd hh:MM"));
+
+            __this.output.push('### creating Happner server');
 
             Happner.create(params.config, function (e, service) {
                 self.__happner = service;
