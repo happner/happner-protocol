@@ -29,13 +29,13 @@ DescribeProtocol.prototype.processJobs = function (callback) {
                 return jobCB(e);
 
             if (job.heading)
-                self.__protocolReport.push('#' + job.heading + '\r\n');
+                self.__protocolReport.push('# ' + job.heading + '\r\n');
 
             if (job.text)
-                self.__protocolReport.push('###' + job.text + '\r\n');
+                self.__protocolReport.push('### ' + job.text + '\r\n');
 
             if (job.description)
-                self.__protocolReport.push('*' + job.description + '*\r\n');
+                self.__protocolReport.push('* ' + job.description + '*\r\n');
 
             if (job.output) {
                 job.output.forEach(function (line) {
