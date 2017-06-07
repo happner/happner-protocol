@@ -4,6 +4,9 @@ module.exports = {
 
     cleanJSON: function (json, ephemerals) {
 
+        if (json == undefined)
+            return;
+
         var cloned = JSON.parse(JSON.stringify(json));
 
         traverse(cloned).forEach(function (value) {

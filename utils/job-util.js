@@ -23,11 +23,10 @@ JobUtil.prototype.getJobs = function (protocol, version) {
 
             var __this = this;
 
-            __this.output.push('## PROTOCOL VERSION: ' + protocol);
-            __this.output.push('## HAPPNER VERSION: ' + version);
-            __this.output.push('## RUN: ' + dateFormat(now, "yyyy mmmm dd hh:MM"));
-
-            __this.output.push('### creating Happner server');
+            self.__addToOutput(__this, '## PROTOCOL VERSION: ', protocol, true);
+            self.__addToOutput(__this, '## HAPPNER VERSION:  ', version, true);
+            self.__addToOutput(__this, '## RUN: ', dateFormat(now, "yyyy mmmm dd hh:MM"), true);
+            self.__addToOutput(__this, '### creating Happner server', null, true);
 
             Happner.create(params.config, function (e, service) {
                 self.__happner = service;
@@ -66,7 +65,7 @@ JobUtil.prototype.getJobs = function (protocol, version) {
                 }
             };
 
-            __this.output.push('creating model: ', self.__model);
+            self.__addToOutput(__this, 'creating model: ', self.__model, false);
 
             self.__api = self.__client.construct(self.__model);
             cb(null, __this.output);
@@ -168,4 +167,8 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         disconnectClientJob,
         happnerServerStopJob
     ];
+};
+
+JobUtil.prototype.__addToOutput = function (scope, name, value, isText) {
+    scope.output.push({name: name, value: value, isText: isText});
 };

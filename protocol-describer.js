@@ -1,6 +1,8 @@
 var async = require('async');
 var path = require('path');
 
+var jsonUtil = require('./utils/json-util');
+
 module.exports = DescribeProtocol;
 
 function DescribeProtocol(pkg, jobUtil, reportUtil) {
@@ -38,8 +40,28 @@ DescribeProtocol.prototype.processJobs = function (callback) {
                 self.__protocolReport.push('* ' + job.description + '*\r\n');
 
             if (job.output) {
-                job.output.forEach(function (line) {
-                    self.__protocolReport.push(line);
+                // iterate through outputs and filter
+                job.output.forEach(function (item) {
+
+                    if (item.isText)
+                        self.__protocolReport.push(item.name + ' ' + (item.value != null ? item.value : ''));
+                    else {
+
+                        switch (item.type) {
+                            case 'inbound':
+                                self.__protocolReport.push('#### ' + item.value.action);
+                                self.__protocolReport.push('*client -> server*' + '\r\n');
+                                break;
+                            case 'outbound':
+                            default:
+                                self.__protocolReport.push('*server -> client*' + '\r\n');
+                        }
+
+                        if (item.format)
+                            self.__protocolReport.push(jsonUtil.cleanJSON(item.value, null, 2));
+                        else
+                            self.__protocolReport.push(jsonUtil.cleanJSON(item.value));
+                    }
                 });
             }
 

@@ -16,8 +16,12 @@ module.exports = {
 
                 console.log('JOB OUTPUT (IN): ', currentJob.output);
 
-                currentJob.output.push('### client -> server');
-                currentJob.output.push(jsonUtil.cleanJSON(message.raw));
+                currentJob.output.push({
+                    type: 'inbound',
+                    value: message.raw,
+                    isText: false,
+                    format: false
+                });
 
                 if (['throw/an/error', '/ALL@/subscription/error', 'remove/failed'].indexOf(message.raw.path) > -1)
                     return cb(new TestError('a fly in the ointment'));
@@ -38,17 +42,23 @@ module.exports = {
 
                 console.log('JOB OUTPUT (OUT): ', currentJob.output);
 
-                currentJob.output.push('### server -> client');
+                //currentJob.output.push('### server -> client');
+
+                var result = {type: 'outbound', value: null, isText:false, format: false};
 
                 if (message.response)
-                    currentJob.output.push(jsonUtil.cleanJSON(message.response));
+                    result.value = message.response;
                 else {
 
                     if (message.request && message.request.publication)
-                        currentJob.output.push(jsonUtil.cleanJSON(message.request.publication, null, 2));
+                        result.value = message.request.publication;
                     else
-                        currentJob.output.push(jsonUtil.cleanJSON(message.raw, null, 2));
+                        result.value = message.raw;
+
+                    result.format = true
                 }
+
+                currentJob.output.push(result);
 
                 cb(null, message);
             }
