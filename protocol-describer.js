@@ -64,15 +64,17 @@ DescribeProtocol.prototype.processJobs = function (callback) {
                                 self.__protocolReport.push('*server -> client*' + '\r\n');
                         }
 
-                        self.__protocolReport.push('<details>');
-                        self.__protocolReport.push('<summary>expand</summary><p>');
+                        self.__protocolReport.push('<details>\r\n');
+                        self.__protocolReport.push('<summary>expand</summary>\r\n');
+                        self.__protocolReport.push('<p>\r\n');
 
                         if (item.format)
                             self.__protocolReport.push(jsonUtil.cleanJSON(item.value, null, 2));
                         else
                             self.__protocolReport.push(jsonUtil.cleanJSON(item.value));
 
-                        self.__protocolReport.push('</p></details><br/>');
+                        self.__protocolReport.push('</p>\r\n');
+                        self.__protocolReport.push('</details>\r\n');
                     }
                 });
             }
