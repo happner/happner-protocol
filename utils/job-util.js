@@ -15,7 +15,7 @@ JobUtil.prototype.getJobs = function (protocol, version) {
      create Happner server
      */
     var happnerServerJob = this.__jobBuilder
-        .withHeading('start Happner server')
+        .withHeading('start happner server')
         .withStep('start happner server')
         .withDoFunc(function (params, cb) {
 
