@@ -1,13 +1,14 @@
 # HAPPNER PROTOCOL
 * __PROTOCOL VERSION: undefined__
 * __HAPPNER VERSION:  2.14.2__
-* __RUN: 2017 June 07 03:29__
+* __RUN: 2017 June 07 03:35__
 ## start Happner server
 
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -17,10 +18,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -34,21 +36,23 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -73,11 +77,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -94,14 +99,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "id": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -123,11 +129,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -137,61 +144,63 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496842162547,
+    "modified": 1496842548400,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -203,27 +212,28 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -232,34 +242,35 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162630,
+    "modified": 1496842548507,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -286,27 +297,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -330,41 +342,42 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162635,
+    "modified": 1496842548552,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -382,18 +395,19 @@
   "key": "/_exchange/requests/TestNode/security/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -411,18 +425,19 @@
   "key": "/_exchange/requests/TestNode/api/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -440,18 +455,19 @@
   "key": "/_exchange/requests/TestNode/system/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -469,18 +485,19 @@
   "key": "/_exchange/requests/TestNode/rest/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -498,10 +515,11 @@
   "key": "/_exchange/requests/TestNode/componentName/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -510,7 +528,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -519,15 +537,16 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -536,7 +555,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -545,15 +564,16 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -562,7 +582,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -571,15 +591,16 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -588,7 +609,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -597,15 +618,16 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -614,7 +636,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -623,16 +645,17 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -1150,27 +1173,28 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -1685,34 +1709,35 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -1739,27 +1764,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -1783,36 +1809,37 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162909,
+    "modified": 1496842549027,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 ## create happner client
 
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -1822,10 +1849,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -1839,21 +1867,23 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -1878,11 +1908,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -1899,14 +1930,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "id": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -1928,11 +1960,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -1942,61 +1975,63 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496842162547,
+    "modified": 1496842548400,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -2008,27 +2043,28 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -2037,34 +2073,35 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162630,
+    "modified": 1496842548507,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -2091,27 +2128,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -2135,41 +2173,42 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162635,
+    "modified": 1496842548552,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2187,18 +2226,19 @@
   "key": "/_exchange/requests/TestNode/security/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2216,18 +2256,19 @@
   "key": "/_exchange/requests/TestNode/api/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2245,18 +2286,19 @@
   "key": "/_exchange/requests/TestNode/system/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2274,18 +2316,19 @@
   "key": "/_exchange/requests/TestNode/rest/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2303,10 +2346,11 @@
   "key": "/_exchange/requests/TestNode/componentName/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -2315,7 +2359,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -2324,15 +2368,16 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -2341,7 +2386,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -2350,15 +2395,16 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -2367,7 +2413,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -2376,15 +2422,16 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -2393,7 +2440,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -2402,15 +2449,16 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -2419,7 +2467,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -2428,16 +2476,17 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -2955,27 +3004,28 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -3490,34 +3540,35 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -3544,27 +3595,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -3588,33 +3640,34 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162909,
+    "modified": 1496842549027,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "componentName": {
@@ -3634,13 +3687,14 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 ## connect happner client to happner server
 
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -3650,10 +3704,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -3667,21 +3722,23 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -3706,11 +3763,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -3727,14 +3785,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "id": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -3756,11 +3815,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -3770,61 +3830,63 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496842162547,
+    "modified": 1496842548400,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -3836,27 +3898,28 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -3865,34 +3928,35 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162630,
+    "modified": 1496842548507,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -3919,27 +3983,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -3963,41 +4028,42 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162635,
+    "modified": 1496842548552,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4015,18 +4081,19 @@
   "key": "/_exchange/requests/TestNode/security/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4044,18 +4111,19 @@
   "key": "/_exchange/requests/TestNode/api/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4073,18 +4141,19 @@
   "key": "/_exchange/requests/TestNode/system/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4102,18 +4171,19 @@
   "key": "/_exchange/requests/TestNode/rest/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4131,10 +4201,11 @@
   "key": "/_exchange/requests/TestNode/componentName/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -4143,7 +4214,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -4152,15 +4223,16 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -4169,7 +4241,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -4178,15 +4250,16 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -4195,7 +4268,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -4204,15 +4277,16 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -4221,7 +4295,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -4230,15 +4304,16 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -4247,7 +4322,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -4256,16 +4331,17 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -4783,27 +4859,28 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -5318,34 +5395,35 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -5372,27 +5450,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -5416,33 +5495,34 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162909,
+    "modified": 1496842549027,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "componentName": {
@@ -5462,11 +5542,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -5476,10 +5557,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -5493,21 +5575,23 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -5526,11 +5610,12 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -5547,14 +5632,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "id": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -5577,13 +5663,14 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 ## subscribe to mesh event
 
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -5593,10 +5680,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -5610,21 +5698,23 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -5649,11 +5739,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -5670,14 +5761,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "id": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -5699,11 +5791,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -5713,61 +5806,63 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496842162547,
+    "modified": 1496842548400,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -5779,27 +5874,28 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -5808,34 +5904,35 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162630,
+    "modified": 1496842548507,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -5862,27 +5959,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -5906,41 +6004,42 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162635,
+    "modified": 1496842548552,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -5958,18 +6057,19 @@
   "key": "/_exchange/requests/TestNode/security/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -5987,18 +6087,19 @@
   "key": "/_exchange/requests/TestNode/api/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6016,18 +6117,19 @@
   "key": "/_exchange/requests/TestNode/system/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6045,18 +6147,19 @@
   "key": "/_exchange/requests/TestNode/rest/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6074,10 +6177,11 @@
   "key": "/_exchange/requests/TestNode/componentName/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -6086,7 +6190,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -6095,15 +6199,16 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -6112,7 +6217,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -6121,15 +6226,16 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -6138,7 +6244,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -6147,15 +6253,16 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -6164,7 +6271,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -6173,15 +6280,16 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -6190,7 +6298,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -6199,16 +6307,17 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -6726,27 +6835,28 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -7261,34 +7371,35 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -7315,27 +7426,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -7359,33 +7471,34 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162909,
+    "modified": 1496842549027,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "componentName": {
@@ -7405,11 +7518,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -7419,10 +7533,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -7436,21 +7551,23 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -7469,11 +7586,12 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -7490,14 +7608,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "id": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -7520,28 +7639,30 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### get
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "get",
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "timeout": 60000,
     "options": {}
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8056,42 +8177,43 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "get"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "event_type": "set",
     "meta": {
@@ -8112,10 +8234,11 @@
   "key": "/_events/TestNode/componentName/event/name"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {},
@@ -8124,24 +8247,25 @@
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "on"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*",
+  "path": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -8152,17 +8276,18 @@
   "pathData": {
     "parts": [
       "/SET",
-      "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*"
+      "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*"
     ],
     "action": "SET"
   },
-  "key": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*"
+  "key": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {},
@@ -8171,30 +8296,31 @@
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "on"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -8202,17 +8328,18 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
   "_meta": {
@@ -8220,24 +8347,25 @@
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "consistency": 2,
-    "publicationId": "575f1244-be0f-4ae8-8031-417e7aadf32b-7"
+    "publicationId": "7f091bc3-858a-43be-a337-73a4d297f3d4-7"
   },
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
   "_meta": {
@@ -8246,17 +8374,18 @@
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "set"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -8270,11 +8399,11 @@
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "noStore": true,
     "meta": {
@@ -8285,16 +8414,17 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -8304,16 +8434,16 @@
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -8321,10 +8451,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8335,19 +8466,20 @@
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "consistency": 2,
-    "publicationId": "4c82148f-d9fa-48b5-9789-37c32986ffe8-14",
+    "publicationId": "53cf10c7-7114-439e-8c6b-a0120b64de13-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8360,22 +8492,23 @@
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*",
-    "action": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*",
+    "action": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "consistency": 2,
-    "publicationId": "4c82148f-d9fa-48b5-9789-37c32986ffe8-15"
+    "publicationId": "53cf10c7-7114-439e-8c6b-a0120b64de13-15"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8386,7 +8519,7 @@
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
@@ -8396,15 +8529,16 @@
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8416,33 +8550,34 @@
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
-    "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 ## disconnect from happner server
 
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -8452,10 +8587,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -8469,21 +8605,23 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8508,11 +8646,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -8529,14 +8668,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "id": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -8558,11 +8698,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -8572,61 +8713,63 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496842162547,
+    "modified": 1496842548400,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -8638,27 +8781,28 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8667,34 +8811,35 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162630,
+    "modified": 1496842548507,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -8721,27 +8866,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8765,41 +8911,42 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162635,
+    "modified": 1496842548552,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -8817,18 +8964,19 @@
   "key": "/_exchange/requests/TestNode/security/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -8846,18 +8994,19 @@
   "key": "/_exchange/requests/TestNode/api/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -8875,18 +9024,19 @@
   "key": "/_exchange/requests/TestNode/system/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -8904,18 +9054,19 @@
   "key": "/_exchange/requests/TestNode/rest/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -8933,10 +9084,11 @@
   "key": "/_exchange/requests/TestNode/componentName/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8945,7 +9097,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -8954,15 +9106,16 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8971,7 +9124,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -8980,15 +9133,16 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -8997,7 +9151,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -9006,15 +9160,16 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -9023,7 +9178,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -9032,15 +9187,16 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -9049,7 +9205,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -9058,16 +9214,17 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -9585,27 +9742,28 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -10120,34 +10278,35 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -10174,27 +10333,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -10218,33 +10378,34 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162909,
+    "modified": 1496842549027,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "componentName": {
@@ -10264,11 +10425,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -10278,10 +10440,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -10295,21 +10458,23 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -10328,11 +10493,12 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -10349,14 +10515,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "id": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -10379,28 +10546,30 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### get
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "get",
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "timeout": 60000,
     "options": {}
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -10915,42 +11084,43 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "get"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "event_type": "set",
     "meta": {
@@ -10971,10 +11141,11 @@
   "key": "/_events/TestNode/componentName/event/name"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {},
@@ -10983,24 +11154,25 @@
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "on"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*",
+  "path": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -11011,17 +11183,18 @@
   "pathData": {
     "parts": [
       "/SET",
-      "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*"
+      "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*"
     ],
     "action": "SET"
   },
-  "key": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*"
+  "key": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {},
@@ -11030,30 +11203,31 @@
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "on"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -11061,17 +11235,18 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
   "_meta": {
@@ -11079,24 +11254,25 @@
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "consistency": 2,
-    "publicationId": "575f1244-be0f-4ae8-8031-417e7aadf32b-7"
+    "publicationId": "7f091bc3-858a-43be-a337-73a4d297f3d4-7"
   },
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
   "_meta": {
@@ -11105,17 +11281,18 @@
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "set"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -11129,11 +11306,11 @@
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "noStore": true,
     "meta": {
@@ -11144,16 +11321,17 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -11163,16 +11341,16 @@
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -11180,10 +11358,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11194,19 +11373,20 @@
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "consistency": 2,
-    "publicationId": "4c82148f-d9fa-48b5-9789-37c32986ffe8-14",
+    "publicationId": "53cf10c7-7114-439e-8c6b-a0120b64de13-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11219,22 +11399,23 @@
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*",
-    "action": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*",
+    "action": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "consistency": 2,
-    "publicationId": "4c82148f-d9fa-48b5-9789-37c32986ffe8-15"
+    "publicationId": "53cf10c7-7114-439e-8c6b-a0120b64de13-15"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11245,7 +11426,7 @@
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
@@ -11255,15 +11436,16 @@
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11275,45 +11457,47 @@
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
-    "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### disconnect
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "disconnect",
   "eventId": 8,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "timeout": 60000
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -11322,19 +11506,20 @@
     "status": "ok",
     "published": false,
     "eventId": 8,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "disconnect"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 ## stopping happner server
 
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -11344,10 +11529,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -11361,21 +11547,23 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11400,11 +11588,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -11421,14 +11610,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "id": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -11450,11 +11640,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -11464,61 +11655,63 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496842162547,
+      "modified": 1496842548400,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496842162547,
+    "modified": 1496842548400,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -11530,27 +11723,28 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11559,34 +11753,35 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162630,
+      "modified": 1496842548507,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162630,
+    "modified": 1496842548507,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -11613,27 +11808,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11657,41 +11853,42 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162635,
+      "modified": 1496842548552,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162635,
+    "modified": 1496842548552,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -11709,18 +11906,19 @@
   "key": "/_exchange/requests/TestNode/security/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -11738,18 +11936,19 @@
   "key": "/_exchange/requests/TestNode/api/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -11767,18 +11966,19 @@
   "key": "/_exchange/requests/TestNode/system/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -11796,18 +11996,19 @@
   "key": "/_exchange/requests/TestNode/rest/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -11825,10 +12026,11 @@
   "key": "/_exchange/requests/TestNode/componentName/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11837,7 +12039,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -11846,15 +12048,16 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11863,7 +12066,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -11872,15 +12075,16 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11889,7 +12093,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -11898,15 +12102,16 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11915,7 +12120,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -11924,15 +12129,16 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -11941,7 +12147,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "on"
     }
   },
@@ -11950,16 +12156,17 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "on"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -12477,27 +12684,28 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -13012,34 +13220,35 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -13066,27 +13275,28 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 60000,
     "consistency": 2
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -13110,33 +13320,34 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496842162909,
+      "modified": 1496842549027,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496842162909,
+    "modified": 1496842549027,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "componentName": {
@@ -13156,11 +13367,12 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### configure-session
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "configure-session",
@@ -13170,10 +13382,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -13187,21 +13400,23 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### describe
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "describe",
   "eventId": 2
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -13220,11 +13435,12 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### login
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "login",
@@ -13241,14 +13457,15 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "id": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "id": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -13271,28 +13488,30 @@
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### get
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "get",
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "timeout": 60000,
     "options": {}
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -13807,42 +14026,43 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496842162898,
+      "modified": 1496842549006,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496842162898,
+    "modified": 1496842549006,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "get"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "event_type": "set",
     "meta": {
@@ -13863,10 +14083,11 @@
   "key": "/_events/TestNode/componentName/event/name"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {},
@@ -13875,24 +14096,25 @@
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "on"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### on
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*",
+  "path": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*",
   "data": null,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -13903,17 +14125,18 @@
   "pathData": {
     "parts": [
       "/SET",
-      "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*"
+      "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*"
     ],
     "action": "SET"
   },
-  "key": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*"
+  "key": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {},
@@ -13922,30 +14145,31 @@
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "on"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -13953,17 +14177,18 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
   "_meta": {
@@ -13971,24 +14196,25 @@
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "consistency": 2,
-    "publicationId": "575f1244-be0f-4ae8-8031-417e7aadf32b-7"
+    "publicationId": "7f091bc3-858a-43be-a337-73a4d297f3d4-7"
   },
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "575f1244-be0f-4ae8-8031-417e7aadf32b"
+      "id": "7f091bc3-858a-43be-a337-73a4d297f3d4"
     }
   },
   "_meta": {
@@ -13997,17 +14223,18 @@
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "set"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
@@ -14021,11 +14248,11 @@
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "noStore": true,
     "meta": {
@@ -14036,16 +14263,17 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### set
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -14055,16 +14283,16 @@
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
-  "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+  "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -14072,10 +14300,11 @@
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -14086,19 +14315,20 @@
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "consistency": 2,
-    "publicationId": "4c82148f-d9fa-48b5-9789-37c32986ffe8-14",
+    "publicationId": "53cf10c7-7114-439e-8c6b-a0120b64de13-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -14111,22 +14341,23 @@
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/*",
-    "action": "/SET@/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/*",
+    "action": "/SET@/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "consistency": 2,
-    "publicationId": "4c82148f-d9fa-48b5-9789-37c32986ffe8-15"
+    "publicationId": "53cf10c7-7114-439e-8c6b-a0120b64de13-15"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -14137,7 +14368,7 @@
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
@@ -14147,15 +14378,16 @@
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": {
@@ -14167,45 +14399,47 @@
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+      "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
       "action": "set"
     }
   },
   "_meta": {
-    "path": "/_exchange/responses/575f1244-be0f-4ae8-8031-417e7aadf32b/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/7f091bc3-858a-43be-a337-73a4d297f3d4/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "4c82148f-d9fa-48b5-9789-37c32986ffe8",
+    "sessionId": "53cf10c7-7114-439e-8c6b-a0120b64de13",
     "action": "set"
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 #### disconnect
 *client -> server*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "action": "disconnect",
   "eventId": 8,
-  "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+  "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
   "options": {
     "timeout": 60000
   }
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "data": null,
@@ -14214,16 +14448,17 @@
     "status": "ok",
     "published": false,
     "eventId": 8,
-    "sessionId": "575f1244-be0f-4ae8-8031-417e7aadf32b",
+    "sessionId": "7f091bc3-858a-43be-a337-73a4d297f3d4",
     "action": "disconnect"
   },
   "__outbound": true
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
 *server -> client*
 
-<details><p>
+<details>
+<summary>expand</summary><p>
 ```json
 {
   "_meta": {
@@ -14233,4 +14468,4 @@
   "data": "server-side-disconnect"
 }
 ```
-</p></details><br/><br/>
+</p></details><br/>
