@@ -71,7 +71,7 @@ DescribeProtocol.prototype.processJobs = function (callback) {
                         else
                             self.__protocolReport.push(jsonUtil.cleanJSON(item.value));
 
-                        self.__protocolReport.push('</p></details><p/>');
+                        self.__protocolReport.push('</p></details><p>');
                     }
                 });
             }
