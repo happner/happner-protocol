@@ -1,6 +1,5 @@
 var Happner = require('happner-2');
 var HappnerClient = require('happner-client');
-var dateFormat = require('dateformat');
 
 module.exports = JobUtil;
 
@@ -11,22 +10,16 @@ function JobUtil(jobBuilder) {
 JobUtil.prototype.getJobs = function (protocol, version) {
 
     var self = this;
-    var now = new Date();
 
     /*
      create Happner server
      */
     var happnerServerJob = this.__jobBuilder
-        .withHeading('happner protocol specification')
+        .withHeading('start Happner server')
         .withStep('start happner server')
         .withDoFunc(function (params, cb) {
 
             var __this = this;
-
-            self.__addToOutput(__this, '## PROTOCOL VERSION: ', protocol, true);
-            self.__addToOutput(__this, '## HAPPNER VERSION:  ', version, true);
-            self.__addToOutput(__this, '## RUN: ', dateFormat(now, "yyyy mmmm dd hh:MM"), true);
-            self.__addToOutput(__this, '### creating Happner server', null, true);
 
             Happner.create(params.config, function (e, service) {
                 self.__happner = service;

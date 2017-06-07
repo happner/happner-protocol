@@ -20,8 +20,15 @@ function DescribeProtocol(pkg, jobUtil, reportUtil) {
 DescribeProtocol.prototype.processJobs = function (callback) {
 
     var self = this;
+    var now = new Date();
+    var dateFormat = require('dateformat');
 
     var jobs = self.__jobUtil.getJobs(self.__protocol, self.__version);
+
+    self.__protocolReport.push('# HAPPNER PROTOCOL');
+    self.__protocolReport.push('* __PROTOCOL VERSION: ' + self.__protocol + '__');
+    self.__protocolReport.push('* __HAPPNER VERSION:  ' + self.__version + '__');
+    self.__protocolReport.push('* __RUN: ' + dateFormat(now, "yyyy mmmm dd hh:MM") + '__');
 
     async.eachSeries(jobs, function (job, jobCB) {
 
@@ -31,7 +38,7 @@ DescribeProtocol.prototype.processJobs = function (callback) {
                 return jobCB(e);
 
             if (job.heading)
-                self.__protocolReport.push('# ' + job.heading + '\r\n');
+                self.__protocolReport.push('## ' + job.heading + '\r\n');
 
             if (job.text)
                 self.__protocolReport.push('### ' + job.text + '\r\n');
