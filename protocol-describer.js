@@ -57,15 +57,15 @@ DescribeProtocol.prototype.processJobs = function (callback) {
                         switch (item.type) {
                             case 'inbound':
                                 self.__protocolReport.push('#### ' + item.value.action);
-                                self.__protocolReport.push('*client -> server*' + '\r\n');
+                                self.__protocolReport.push('<details>\r\n');
+                                self.__protocolReport.push('<summary>client -> server</summary>\r\n');
                                 break;
                             case 'outbound':
                             default:
-                                self.__protocolReport.push('*server -> client*' + '\r\n');
+                                self.__protocolReport.push('<details>\r\n');
+                                self.__protocolReport.push('<summary>server -> client</summary>\r\n');
                         }
 
-                        self.__protocolReport.push('<details>\r\n');
-                        self.__protocolReport.push('<summary>expand</summary>\r\n');
                         self.__protocolReport.push('<p>\r\n');
 
                         if (item.format)
