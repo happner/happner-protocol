@@ -100,6 +100,9 @@ JobUtil.prototype.getJobs = function (protocol, version) {
                 /*
                  initiate the event
                  */
+
+                self.__addToOutput(__this, 'invoking remote function', null, true);
+
                 self.__api.exchange.componentName.causeEventMethod(function () {
                     setTimeout(function () {
 
