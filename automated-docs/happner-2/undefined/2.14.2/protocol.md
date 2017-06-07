@@ -1,7 +1,7 @@
 # HAPPNER PROTOCOL
 * __PROTOCOL VERSION: undefined__
 * __HAPPNER VERSION:  2.14.2__
-* __RUN: 2017 June 07 04:25__
+* __RUN: 2017 June 07 04:31__
 ## start happner server
 
 #### configure-session
@@ -134,7 +134,7 @@
 ```json
 {
   "data": {
-    "id": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "id": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -176,17 +176,17 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -209,25 +209,25 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496845544093,
+    "modified": 1496845911202,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -254,17 +254,17 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -289,25 +289,25 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544157,
+    "modified": 1496845911313,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -349,17 +349,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -399,25 +399,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544171,
+    "modified": 1496845911321,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -439,7 +439,7 @@
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -474,7 +474,7 @@
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -509,7 +509,7 @@
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -544,7 +544,7 @@
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -579,7 +579,7 @@
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -615,7 +615,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -624,7 +624,7 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -647,7 +647,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -656,7 +656,7 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -679,7 +679,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -688,7 +688,7 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -711,7 +711,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -720,7 +720,7 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -743,7 +743,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -752,7 +752,7 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -1285,17 +1285,17 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -1826,25 +1826,25 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -1886,17 +1886,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -1936,25 +1936,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544434,
+    "modified": 1496845911703,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -2095,7 +2095,7 @@
 ```json
 {
   "data": {
-    "id": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "id": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -2137,17 +2137,17 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -2170,25 +2170,25 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496845544093,
+    "modified": 1496845911202,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -2215,17 +2215,17 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -2250,25 +2250,25 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544157,
+    "modified": 1496845911313,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -2310,17 +2310,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -2360,25 +2360,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544171,
+    "modified": 1496845911321,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -2400,7 +2400,7 @@
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2435,7 +2435,7 @@
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2470,7 +2470,7 @@
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2505,7 +2505,7 @@
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2540,7 +2540,7 @@
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -2576,7 +2576,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -2585,7 +2585,7 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -2608,7 +2608,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -2617,7 +2617,7 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -2640,7 +2640,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -2649,7 +2649,7 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -2672,7 +2672,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -2681,7 +2681,7 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -2704,7 +2704,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -2713,7 +2713,7 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -3246,17 +3246,17 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -3787,25 +3787,25 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -3847,17 +3847,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -3897,25 +3897,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544434,
+    "modified": 1496845911703,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -4085,7 +4085,7 @@
 ```json
 {
   "data": {
-    "id": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "id": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -4127,17 +4127,17 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -4160,25 +4160,25 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496845544093,
+    "modified": 1496845911202,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -4205,17 +4205,17 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -4240,25 +4240,25 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544157,
+    "modified": 1496845911313,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -4300,17 +4300,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -4350,25 +4350,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544171,
+    "modified": 1496845911321,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -4390,7 +4390,7 @@
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4425,7 +4425,7 @@
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4460,7 +4460,7 @@
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4495,7 +4495,7 @@
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4530,7 +4530,7 @@
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -4566,7 +4566,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -4575,7 +4575,7 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -4598,7 +4598,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -4607,7 +4607,7 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -4630,7 +4630,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -4639,7 +4639,7 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -4662,7 +4662,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -4671,7 +4671,7 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -4694,7 +4694,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -4703,7 +4703,7 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -5236,17 +5236,17 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -5777,25 +5777,25 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -5837,17 +5837,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -5887,25 +5887,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544434,
+    "modified": 1496845911703,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -6067,7 +6067,7 @@
 ```json
 {
   "data": {
-    "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -6226,7 +6226,7 @@
 ```json
 {
   "data": {
-    "id": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "id": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -6268,17 +6268,17 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -6301,25 +6301,25 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496845544093,
+    "modified": 1496845911202,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -6346,17 +6346,17 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -6381,25 +6381,25 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544157,
+    "modified": 1496845911313,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -6441,17 +6441,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -6491,25 +6491,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544171,
+    "modified": 1496845911321,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -6531,7 +6531,7 @@
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6566,7 +6566,7 @@
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6601,7 +6601,7 @@
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6636,7 +6636,7 @@
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6671,7 +6671,7 @@
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -6707,7 +6707,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -6716,7 +6716,7 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -6739,7 +6739,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -6748,7 +6748,7 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -6771,7 +6771,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -6780,7 +6780,7 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -6803,7 +6803,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -6812,7 +6812,7 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -6835,7 +6835,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -6844,7 +6844,7 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -7377,17 +7377,17 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -7918,25 +7918,25 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -7978,17 +7978,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -8028,25 +8028,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544434,
+    "modified": 1496845911703,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -8208,7 +8208,7 @@
 ```json
 {
   "data": {
-    "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -8248,7 +8248,7 @@
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "timeout": 60000,
     "options": {}
@@ -8779,25 +8779,25 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "get"
   },
   "__outbound": true
@@ -8820,7 +8820,7 @@
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "event_type": "set",
     "meta": {
@@ -8859,7 +8859,7 @@
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "on"
   },
   "__outbound": true
@@ -8869,7 +8869,2781 @@
 
 </details>
 
-invoking remote function 
+## invoke remote function
+
+#### configure-session
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "configure-session",
+  "eventId": 1,
+  "data": {
+    "protocol": "happn_1.3.0"
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": null,
+  "_meta": {
+    "type": "response",
+    "status": "ok",
+    "published": false,
+    "eventId": 1,
+    "action": "configure-session",
+    "nullData": true
+  }
+}
+```
+</p>
+
+</details>
+
+#### describe
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "describe",
+  "eventId": 2
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "name": "TestNode",
+    "secure": false,
+    "encryptPayloads": false,
+    "publicKey": "AmVu/uIvjY8r8YAYohigizLO+kRNhWGGBnkOXtyuswqJ",
+    "_meta": {
+      "type": "response",
+      "status": "ok",
+      "published": false,
+      "eventId": 2,
+      "action": "describe"
+    }
+  },
+  "_meta": {
+    "type": "response",
+    "status": "ok",
+    "published": false,
+    "eventId": 2,
+    "action": "describe"
+  }
+}
+```
+</p>
+
+</details>
+
+#### login
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "login",
+  "eventId": 3,
+  "data": {
+    "info": {
+      "_browser": false,
+      "_local": true
+    },
+    "protocol": "happn_1.3.0"
+  },
+  "options": {
+    "timeout": 60000
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "id": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "protocol": "happn_1.3.0",
+    "happn": {
+      "name": "TestNode",
+      "secure": false,
+      "encryptPayloads": false,
+      "publicKey": "AmVu/uIvjY8r8YAYohigizLO+kRNhWGGBnkOXtyuswqJ"
+    },
+    "info": {
+      "_browser": false,
+      "_local": true
+    }
+  },
+  "_meta": {
+    "type": "response",
+    "status": "ok",
+    "published": false,
+    "eventId": 3,
+    "action": "login"
+  }
+}
+```
+</p>
+
+</details>
+
+#### set
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "set",
+  "eventId": 4,
+  "path": "/test/write",
+  "data": {
+    "can": "can",
+    "_meta": {
+      "created": 1495708248824,
+      "modified": 1496845911202,
+      "path": "/test/write",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 4,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "timeout": 60000,
+    "consistency": 2
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "can": "can",
+    "_meta": {
+      "created": 1495708248824,
+      "modified": 1496845911202,
+      "path": "/test/write",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 4,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "_meta": {
+    "created": 1495708248824,
+    "modified": 1496845911202,
+    "path": "/test/write",
+    "published": true,
+    "type": "response",
+    "status": "ok",
+    "eventId": 4,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "set"
+  }
+}
+```
+</p>
+
+</details>
+
+#### set
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "set",
+  "eventId": 5,
+  "path": "/mesh/schema/description",
+  "data": {
+    "initializing": true,
+    "name": "TestNode",
+    "components": {},
+    "_meta": {
+      "created": 1495708248883,
+      "modified": 1496845911313,
+      "path": "/mesh/schema/description",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 5,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "timeout": 60000,
+    "consistency": 2
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "initializing": true,
+    "name": "TestNode",
+    "components": {},
+    "_meta": {
+      "created": 1495708248883,
+      "modified": 1496845911313,
+      "path": "/mesh/schema/description",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 5,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "_meta": {
+    "created": 1495708248883,
+    "modified": 1496845911313,
+    "path": "/mesh/schema/description",
+    "published": true,
+    "type": "response",
+    "status": "ok",
+    "eventId": 5,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "set"
+  }
+}
+```
+</p>
+
+</details>
+
+#### set
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "set",
+  "eventId": 6,
+  "path": "/mesh/schema/config",
+  "data": {
+    "name": "TestNode",
+    "version": "2.14.2",
+    "happn": {
+      "port": 50505,
+      "secure": false,
+      "setOptions": {
+        "timeout": 10000,
+        "noStore": true
+      }
+    },
+    "datalayer": {
+      "port": 50505,
+      "secure": false,
+      "setOptions": {
+        "timeout": 10000,
+        "noStore": true
+      }
+    },
+    "_meta": {
+      "created": 1495708248885,
+      "modified": 1496845911321,
+      "path": "/mesh/schema/config",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 6,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "timeout": 60000,
+    "consistency": 2
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "name": "TestNode",
+    "version": "2.14.2",
+    "happn": {
+      "port": 50505,
+      "secure": false,
+      "setOptions": {
+        "timeout": 10000,
+        "noStore": true
+      }
+    },
+    "datalayer": {
+      "port": 50505,
+      "secure": false,
+      "setOptions": {
+        "timeout": 10000,
+        "noStore": true
+      }
+    },
+    "_meta": {
+      "created": 1495708248885,
+      "modified": 1496845911321,
+      "path": "/mesh/schema/config",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 6,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "_meta": {
+    "created": 1495708248885,
+    "modified": 1496845911321,
+    "path": "/mesh/schema/config",
+    "published": true,
+    "type": "response",
+    "status": "ok",
+    "eventId": 6,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "set"
+  }
+}
+```
+</p>
+
+</details>
+
+#### on
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "on",
+  "eventId": 7,
+  "path": "/SET@/_exchange/requests/TestNode/security/*",
+  "data": null,
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "event_type": "set",
+    "count": 0,
+    "listenerId": 0,
+    "refCount": 1,
+    "timeout": 60000
+  },
+  "pathData": {
+    "parts": [
+      "/SET",
+      "/_exchange/requests/TestNode/security/*"
+    ],
+    "action": "SET"
+  },
+  "key": "/_exchange/requests/TestNode/security/*"
+}
+```
+</p>
+
+</details>
+
+#### on
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "on",
+  "eventId": 8,
+  "path": "/SET@/_exchange/requests/TestNode/api/*",
+  "data": null,
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "event_type": "set",
+    "count": 0,
+    "listenerId": 1,
+    "refCount": 1,
+    "timeout": 60000
+  },
+  "pathData": {
+    "parts": [
+      "/SET",
+      "/_exchange/requests/TestNode/api/*"
+    ],
+    "action": "SET"
+  },
+  "key": "/_exchange/requests/TestNode/api/*"
+}
+```
+</p>
+
+</details>
+
+#### on
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "on",
+  "eventId": 9,
+  "path": "/SET@/_exchange/requests/TestNode/system/*",
+  "data": null,
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "event_type": "set",
+    "count": 0,
+    "listenerId": 2,
+    "refCount": 1,
+    "timeout": 60000
+  },
+  "pathData": {
+    "parts": [
+      "/SET",
+      "/_exchange/requests/TestNode/system/*"
+    ],
+    "action": "SET"
+  },
+  "key": "/_exchange/requests/TestNode/system/*"
+}
+```
+</p>
+
+</details>
+
+#### on
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "on",
+  "eventId": 10,
+  "path": "/SET@/_exchange/requests/TestNode/rest/*",
+  "data": null,
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "event_type": "set",
+    "count": 0,
+    "listenerId": 3,
+    "refCount": 1,
+    "timeout": 60000
+  },
+  "pathData": {
+    "parts": [
+      "/SET",
+      "/_exchange/requests/TestNode/rest/*"
+    ],
+    "action": "SET"
+  },
+  "key": "/_exchange/requests/TestNode/rest/*"
+}
+```
+</p>
+
+</details>
+
+#### on
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "on",
+  "eventId": 11,
+  "path": "/SET@/_exchange/requests/TestNode/componentName/*",
+  "data": null,
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "event_type": "set",
+    "count": 0,
+    "listenerId": 4,
+    "refCount": 1,
+    "timeout": 60000
+  },
+  "pathData": {
+    "parts": [
+      "/SET",
+      "/_exchange/requests/TestNode/componentName/*"
+    ],
+    "action": "SET"
+  },
+  "key": "/_exchange/requests/TestNode/componentName/*"
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "_meta": {
+      "status": "ok",
+      "type": "response",
+      "published": false,
+      "eventId": 7,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "on"
+    }
+  },
+  "_meta": {
+    "status": "ok",
+    "type": "response",
+    "published": false,
+    "eventId": 7,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "on"
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "_meta": {
+      "status": "ok",
+      "type": "response",
+      "published": false,
+      "eventId": 8,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "on"
+    }
+  },
+  "_meta": {
+    "status": "ok",
+    "type": "response",
+    "published": false,
+    "eventId": 8,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "on"
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "_meta": {
+      "status": "ok",
+      "type": "response",
+      "published": false,
+      "eventId": 9,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "on"
+    }
+  },
+  "_meta": {
+    "status": "ok",
+    "type": "response",
+    "published": false,
+    "eventId": 9,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "on"
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "_meta": {
+      "status": "ok",
+      "type": "response",
+      "published": false,
+      "eventId": 10,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "on"
+    }
+  },
+  "_meta": {
+    "status": "ok",
+    "type": "response",
+    "published": false,
+    "eventId": 10,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "on"
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "_meta": {
+      "status": "ok",
+      "type": "response",
+      "published": false,
+      "eventId": 11,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "on"
+    }
+  },
+  "_meta": {
+    "status": "ok",
+    "type": "response",
+    "published": false,
+    "eventId": 11,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "on"
+  }
+}
+```
+</p>
+
+</details>
+
+#### set
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "set",
+  "eventId": 12,
+  "path": "/mesh/schema/description",
+  "data": {
+    "name": "TestNode",
+    "initializing": false,
+    "components": {
+      "security": {
+        "name": "security",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "attachToSecurityChanges": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "attachToSessionChanges": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getComponentId": {
+            "parameters": []
+          },
+          "getSystemPermissions": {
+            "parameters": [
+              {
+                "name": "params"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "associateGroups": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "link"
+              },
+              {
+                "name": "unlink"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "upsertUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "options"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "upsertGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "options"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addGroupPermissions": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "mergePermissions"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "removeGroupPermissions": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "removePermissions"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateOwnUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "linkGroupName": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "unlinkGroupName": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "linkGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "unlinkGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listGroups": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listUsers": {
+            "parameters": [
+              {
+                "name": "userName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getUser": {
+            "parameters": [
+              {
+                "name": "userName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getGroup": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deleteGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deleteUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "sessionManagementActive": {
+            "parameters": []
+          },
+          "activateSessionManagement": {
+            "parameters": [
+              {
+                "name": "logSessionActivity"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deactivateSessionManagement": {
+            "parameters": [
+              {
+                "name": "logSessionActivity"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "sessionActivityActive": {
+            "parameters": []
+          },
+          "activateSessionActivity": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deactivateSessionActivity": {
+            "parameters": [
+              {
+                "name": "clear"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "clearSessionActivity": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "revokeSession": {
+            "parameters": [
+              {
+                "name": "session"
+              },
+              {
+                "name": "reason"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "restoreSession": {
+            "parameters": [
+              {
+                "name": "session"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listSessionActivity": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listActiveSessions": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listRevokedSessions": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      },
+      "api": {
+        "name": "api",
+        "version": "2.14.2",
+        "methods": {
+          "test": {
+            "parameters": []
+          }
+        },
+        "routes": {
+          "/api/client": {
+            "type": "mware"
+          }
+        },
+        "events": {},
+        "data": {}
+      },
+      "system": {
+        "name": "system",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "compactDBFile": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "activateStatistics": {
+            "parameters": [
+              {
+                "name": "interval"
+              }
+            ]
+          },
+          "deactivateStatistics": {
+            "parameters": []
+          },
+          "getDBFileInfo": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getStats": {
+            "parameters": [
+              {
+                "name": "measureInterval"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "systemInfo": {
+            "parameters": []
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      },
+      "rest": {
+        "name": "rest",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {
+          "/rest/method": {
+            "type": "mware"
+          },
+          "/rest/describe": {
+            "type": "mware"
+          },
+          "/rest/login": {
+            "type": "mware"
+          }
+        },
+        "events": {},
+        "data": {}
+      },
+      "componentName": {
+        "name": "componentName",
+        "version": "1.0.0",
+        "methods": {
+          "methodName": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "causeEventMethod": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "erroringMethodName": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      }
+    },
+    "setOptions": {
+      "timeout": 10000,
+      "noStore": true
+    },
+    "_meta": {
+      "created": 1495708248883,
+      "modified": 1496845911681,
+      "path": "/mesh/schema/description",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 12,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "timeout": 60000,
+    "consistency": 2
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "name": "TestNode",
+    "initializing": false,
+    "components": {
+      "security": {
+        "name": "security",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "attachToSecurityChanges": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "attachToSessionChanges": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getComponentId": {
+            "parameters": []
+          },
+          "getSystemPermissions": {
+            "parameters": [
+              {
+                "name": "params"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "associateGroups": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "link"
+              },
+              {
+                "name": "unlink"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "upsertUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "options"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "upsertGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "options"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addGroupPermissions": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "mergePermissions"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "removeGroupPermissions": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "removePermissions"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateOwnUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "linkGroupName": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "unlinkGroupName": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "linkGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "unlinkGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listGroups": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listUsers": {
+            "parameters": [
+              {
+                "name": "userName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getUser": {
+            "parameters": [
+              {
+                "name": "userName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getGroup": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deleteGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deleteUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "sessionManagementActive": {
+            "parameters": []
+          },
+          "activateSessionManagement": {
+            "parameters": [
+              {
+                "name": "logSessionActivity"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deactivateSessionManagement": {
+            "parameters": [
+              {
+                "name": "logSessionActivity"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "sessionActivityActive": {
+            "parameters": []
+          },
+          "activateSessionActivity": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deactivateSessionActivity": {
+            "parameters": [
+              {
+                "name": "clear"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "clearSessionActivity": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "revokeSession": {
+            "parameters": [
+              {
+                "name": "session"
+              },
+              {
+                "name": "reason"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "restoreSession": {
+            "parameters": [
+              {
+                "name": "session"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listSessionActivity": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listActiveSessions": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listRevokedSessions": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      },
+      "api": {
+        "name": "api",
+        "version": "2.14.2",
+        "methods": {
+          "test": {
+            "parameters": []
+          }
+        },
+        "routes": {
+          "/api/client": {
+            "type": "mware"
+          }
+        },
+        "events": {},
+        "data": {}
+      },
+      "system": {
+        "name": "system",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "compactDBFile": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "activateStatistics": {
+            "parameters": [
+              {
+                "name": "interval"
+              }
+            ]
+          },
+          "deactivateStatistics": {
+            "parameters": []
+          },
+          "getDBFileInfo": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getStats": {
+            "parameters": [
+              {
+                "name": "measureInterval"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "systemInfo": {
+            "parameters": []
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      },
+      "rest": {
+        "name": "rest",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {
+          "/rest/method": {
+            "type": "mware"
+          },
+          "/rest/describe": {
+            "type": "mware"
+          },
+          "/rest/login": {
+            "type": "mware"
+          }
+        },
+        "events": {},
+        "data": {}
+      },
+      "componentName": {
+        "name": "componentName",
+        "version": "1.0.0",
+        "methods": {
+          "methodName": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "causeEventMethod": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "erroringMethodName": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      }
+    },
+    "setOptions": {
+      "timeout": 10000,
+      "noStore": true
+    },
+    "_meta": {
+      "created": 1495708248883,
+      "modified": 1496845911681,
+      "path": "/mesh/schema/description",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 12,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "_meta": {
+    "created": 1495708248883,
+    "modified": 1496845911681,
+    "path": "/mesh/schema/description",
+    "published": true,
+    "type": "response",
+    "status": "ok",
+    "eventId": 12,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "set"
+  }
+}
+```
+</p>
+
+</details>
+
+#### set
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "set",
+  "eventId": 13,
+  "path": "/mesh/schema/config",
+  "data": {
+    "name": "TestNode",
+    "version": "2.14.2",
+    "happn": {
+      "port": 50505,
+      "secure": false,
+      "setOptions": {
+        "timeout": 10000,
+        "noStore": true
+      }
+    },
+    "datalayer": {
+      "port": 50505,
+      "secure": false,
+      "setOptions": {
+        "timeout": 10000,
+        "noStore": true
+      }
+    },
+    "_meta": {
+      "created": 1495708248885,
+      "modified": 1496845911703,
+      "path": "/mesh/schema/config",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 13,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+  "options": {
+    "timeout": 60000,
+    "consistency": 2
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "name": "TestNode",
+    "version": "2.14.2",
+    "happn": {
+      "port": 50505,
+      "secure": false,
+      "setOptions": {
+        "timeout": 10000,
+        "noStore": true
+      }
+    },
+    "datalayer": {
+      "port": 50505,
+      "secure": false,
+      "setOptions": {
+        "timeout": 10000,
+        "noStore": true
+      }
+    },
+    "_meta": {
+      "created": 1495708248885,
+      "modified": 1496845911703,
+      "path": "/mesh/schema/config",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 13,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "_meta": {
+    "created": 1495708248885,
+    "modified": 1496845911703,
+    "path": "/mesh/schema/config",
+    "published": true,
+    "type": "response",
+    "status": "ok",
+    "eventId": 13,
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+    "action": "set"
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "componentName": {
+    "version": "^1.0.0",
+    "methods": {
+      "methodName": {},
+      "causeEventMethod": {},
+      "erroringMethodName": {},
+      "missingMethodName": {}
+    }
+  },
+  "missingComponentName": {
+    "version": "^1.0.0",
+    "methods": {
+      "missingMethodName": {}
+    }
+  }
+}
+```
+</p>
+
+</details>
+
+#### configure-session
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "configure-session",
+  "eventId": 1,
+  "data": {
+    "protocol": "happn_1.3.0"
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": null,
+  "_meta": {
+    "type": "response",
+    "status": "ok",
+    "published": false,
+    "eventId": 1,
+    "action": "configure-session"
+  },
+  "__outbound": true
+}
+```
+</p>
+
+</details>
+
+#### describe
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "describe",
+  "eventId": 2
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "name": "TestNode",
+    "secure": false,
+    "encryptPayloads": false,
+    "publicKey": "AmVu/uIvjY8r8YAYohigizLO+kRNhWGGBnkOXtyuswqJ"
+  },
+  "_meta": {
+    "type": "response",
+    "status": "ok",
+    "published": false,
+    "eventId": 2,
+    "action": "describe"
+  },
+  "__outbound": true
+}
+```
+</p>
+
+</details>
+
+#### login
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "login",
+  "eventId": 3,
+  "data": {
+    "info": {
+      "_browser": false,
+      "_local": false
+    },
+    "protocol": "happn_1.3.0"
+  },
+  "options": {
+    "timeout": 60000
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
+    "protocol": "happn_1.3.0",
+    "happn": {
+      "name": "TestNode",
+      "secure": false,
+      "encryptPayloads": false,
+      "publicKey": "AmVu/uIvjY8r8YAYohigizLO+kRNhWGGBnkOXtyuswqJ"
+    },
+    "info": {
+      "_browser": false,
+      "_local": false
+    }
+  },
+  "_meta": {
+    "type": "response",
+    "status": "ok",
+    "published": false,
+    "eventId": 3,
+    "action": "login"
+  },
+  "__outbound": true
+}
+```
+</p>
+
+</details>
+
+#### get
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "get",
+  "eventId": 4,
+  "path": "/mesh/schema/description",
+  "data": null,
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
+  "options": {
+    "timeout": 60000,
+    "options": {}
+  }
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {
+    "name": "TestNode",
+    "initializing": false,
+    "components": {
+      "security": {
+        "name": "security",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "attachToSecurityChanges": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "attachToSessionChanges": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getComponentId": {
+            "parameters": []
+          },
+          "getSystemPermissions": {
+            "parameters": [
+              {
+                "name": "params"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "associateGroups": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "link"
+              },
+              {
+                "name": "unlink"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "upsertUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "options"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "upsertGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "options"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addGroupPermissions": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "mergePermissions"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "removeGroupPermissions": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "removePermissions"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "addUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateOwnUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "updateUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "linkGroupName": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "unlinkGroupName": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "linkGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "unlinkGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listGroups": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listUsers": {
+            "parameters": [
+              {
+                "name": "userName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getUser": {
+            "parameters": [
+              {
+                "name": "userName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getGroup": {
+            "parameters": [
+              {
+                "name": "groupName"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deleteGroup": {
+            "parameters": [
+              {
+                "name": "group"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deleteUser": {
+            "parameters": [
+              {
+                "name": "user"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "sessionManagementActive": {
+            "parameters": []
+          },
+          "activateSessionManagement": {
+            "parameters": [
+              {
+                "name": "logSessionActivity"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deactivateSessionManagement": {
+            "parameters": [
+              {
+                "name": "logSessionActivity"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "sessionActivityActive": {
+            "parameters": []
+          },
+          "activateSessionActivity": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "deactivateSessionActivity": {
+            "parameters": [
+              {
+                "name": "clear"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "clearSessionActivity": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "revokeSession": {
+            "parameters": [
+              {
+                "name": "session"
+              },
+              {
+                "name": "reason"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "restoreSession": {
+            "parameters": [
+              {
+                "name": "session"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listSessionActivity": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listActiveSessions": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "listRevokedSessions": {
+            "parameters": [
+              {
+                "name": "filter"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      },
+      "api": {
+        "name": "api",
+        "version": "2.14.2",
+        "methods": {
+          "test": {
+            "parameters": []
+          }
+        },
+        "routes": {
+          "/api/client": {
+            "type": "mware"
+          }
+        },
+        "events": {},
+        "data": {}
+      },
+      "system": {
+        "name": "system",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "compactDBFile": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "activateStatistics": {
+            "parameters": [
+              {
+                "name": "interval"
+              }
+            ]
+          },
+          "deactivateStatistics": {
+            "parameters": []
+          },
+          "getDBFileInfo": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "getStats": {
+            "parameters": [
+              {
+                "name": "measureInterval"
+              },
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "systemInfo": {
+            "parameters": []
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      },
+      "rest": {
+        "name": "rest",
+        "version": "2.14.2",
+        "methods": {
+          "initialize": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {
+          "/rest/method": {
+            "type": "mware"
+          },
+          "/rest/describe": {
+            "type": "mware"
+          },
+          "/rest/login": {
+            "type": "mware"
+          }
+        },
+        "events": {},
+        "data": {}
+      },
+      "componentName": {
+        "name": "componentName",
+        "version": "1.0.0",
+        "methods": {
+          "methodName": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "causeEventMethod": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          },
+          "erroringMethodName": {
+            "parameters": [
+              {
+                "name": "callback"
+              }
+            ]
+          }
+        },
+        "routes": {},
+        "events": {},
+        "data": {}
+      }
+    },
+    "setOptions": {
+      "timeout": 10000,
+      "noStore": true
+    },
+    "_meta": {
+      "created": 1495708248883,
+      "modified": 1496845911681,
+      "path": "/mesh/schema/description",
+      "published": true,
+      "type": "response",
+      "status": "ok",
+      "eventId": 12,
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
+      "action": "set"
+    }
+  },
+  "_meta": {
+    "created": 1495708248883,
+    "modified": 1496845911681,
+    "path": "/mesh/schema/description",
+    "type": "response",
+    "status": "ok",
+    "published": false,
+    "eventId": 4,
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
+    "action": "get"
+  },
+  "__outbound": true
+}
+```
+</p>
+
+</details>
+
+#### on
+<details>
+
+<summary>client -> server</summary>
+
+<p>
+
+```json
+{
+  "action": "on",
+  "eventId": 5,
+  "path": "/SET@/_events/TestNode/componentName/event/name",
+  "data": null,
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
+  "options": {
+    "event_type": "set",
+    "meta": {
+      "componentVersion": "^1.0.0"
+    },
+    "count": 0,
+    "listenerId": 0,
+    "refCount": 1,
+    "timeout": 60000
+  },
+  "pathData": {
+    "parts": [
+      "/SET",
+      "/_events/TestNode/componentName/event/name"
+    ],
+    "action": "SET"
+  },
+  "key": "/_events/TestNode/componentName/event/name"
+}
+```
+</p>
+
+</details>
+
+<details>
+
+<summary>server -> client</summary>
+
+<p>
+
+```json
+{
+  "data": {},
+  "_meta": {
+    "status": "ok",
+    "type": "response",
+    "published": false,
+    "eventId": 5,
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
+    "action": "on"
+  },
+  "__outbound": true
+}
+```
+</p>
+
+</details>
+
 #### on
 <details>
 
@@ -8881,9 +11655,9 @@ invoking remote function
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*",
+  "path": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -8894,11 +11668,11 @@ invoking remote function
   "pathData": {
     "parts": [
       "/SET",
-      "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*"
+      "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*"
     ],
     "action": "SET"
   },
-  "key": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*"
+  "key": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*"
 }
 ```
 </p>
@@ -8919,7 +11693,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "on"
   },
   "__outbound": true
@@ -8942,13 +11716,13 @@ invoking remote function
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -8969,10 +11743,10 @@ invoking remote function
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
   "_meta": {
@@ -8980,9 +11754,9 @@ invoking remote function
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "consistency": 2,
-    "publicationId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813-7"
+    "publicationId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1-7"
   },
   "protocol": "happn_1.3.0"
 }
@@ -9000,10 +11774,10 @@ invoking remote function
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
   "_meta": {
@@ -9012,7 +11786,7 @@ invoking remote function
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "set"
   },
   "__outbound": true
@@ -9042,11 +11816,11 @@ invoking remote function
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "noStore": true,
     "meta": {
@@ -9072,7 +11846,7 @@ invoking remote function
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -9082,16 +11856,16 @@ invoking remote function
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -9119,9 +11893,9 @@ invoking remote function
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "consistency": 2,
-    "publicationId": "18c09322-35b4-4544-90aa-8aff1d6779fd-14",
+    "publicationId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true,
@@ -9150,13 +11924,13 @@ invoking remote function
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*",
-    "action": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*",
+    "action": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "consistency": 2,
-    "publicationId": "18c09322-35b4-4544-90aa-8aff1d6779fd-15"
+    "publicationId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf-15"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
@@ -9182,7 +11956,7 @@ invoking remote function
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
@@ -9192,7 +11966,7 @@ invoking remote function
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -9218,22 +11992,22 @@ invoking remote function
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
-    "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -9374,7 +12148,7 @@ invoking remote function
 ```json
 {
   "data": {
-    "id": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "id": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -9416,17 +12190,17 @@ invoking remote function
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -9449,25 +12223,25 @@ invoking remote function
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496845544093,
+    "modified": 1496845911202,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -9494,17 +12268,17 @@ invoking remote function
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -9529,25 +12303,25 @@ invoking remote function
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544157,
+    "modified": 1496845911313,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -9589,17 +12363,17 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -9639,25 +12413,25 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544171,
+    "modified": 1496845911321,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -9679,7 +12453,7 @@ invoking remote function
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9714,7 +12488,7 @@ invoking remote function
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9749,7 +12523,7 @@ invoking remote function
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9784,7 +12558,7 @@ invoking remote function
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9819,7 +12593,7 @@ invoking remote function
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -9855,7 +12629,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -9864,7 +12638,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -9887,7 +12661,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -9896,7 +12670,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -9919,7 +12693,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -9928,7 +12702,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -9951,7 +12725,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -9960,7 +12734,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -9983,7 +12757,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -9992,7 +12766,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -10525,17 +13299,17 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -11066,25 +13840,25 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -11126,17 +13900,17 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -11176,25 +13950,25 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544434,
+    "modified": 1496845911703,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -11356,7 +14130,7 @@ invoking remote function
 ```json
 {
   "data": {
-    "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -11396,7 +14170,7 @@ invoking remote function
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "timeout": 60000,
     "options": {}
@@ -11927,25 +14701,25 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "get"
   },
   "__outbound": true
@@ -11968,7 +14742,7 @@ invoking remote function
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "event_type": "set",
     "meta": {
@@ -12007,7 +14781,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "on"
   },
   "__outbound": true
@@ -12017,7 +14791,6 @@ invoking remote function
 
 </details>
 
-invoking remote function 
 #### on
 <details>
 
@@ -12029,9 +14802,9 @@ invoking remote function
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*",
+  "path": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -12042,11 +14815,11 @@ invoking remote function
   "pathData": {
     "parts": [
       "/SET",
-      "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*"
+      "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*"
     ],
     "action": "SET"
   },
-  "key": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*"
+  "key": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*"
 }
 ```
 </p>
@@ -12067,7 +14840,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "on"
   },
   "__outbound": true
@@ -12090,13 +14863,13 @@ invoking remote function
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -12117,10 +14890,10 @@ invoking remote function
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
   "_meta": {
@@ -12128,9 +14901,9 @@ invoking remote function
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "consistency": 2,
-    "publicationId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813-7"
+    "publicationId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1-7"
   },
   "protocol": "happn_1.3.0"
 }
@@ -12148,10 +14921,10 @@ invoking remote function
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
   "_meta": {
@@ -12160,7 +14933,7 @@ invoking remote function
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "set"
   },
   "__outbound": true
@@ -12190,11 +14963,11 @@ invoking remote function
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "noStore": true,
     "meta": {
@@ -12220,7 +14993,7 @@ invoking remote function
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -12230,16 +15003,16 @@ invoking remote function
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -12267,9 +15040,9 @@ invoking remote function
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "consistency": 2,
-    "publicationId": "18c09322-35b4-4544-90aa-8aff1d6779fd-14",
+    "publicationId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true,
@@ -12298,13 +15071,13 @@ invoking remote function
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*",
-    "action": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*",
+    "action": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "consistency": 2,
-    "publicationId": "18c09322-35b4-4544-90aa-8aff1d6779fd-15"
+    "publicationId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf-15"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
@@ -12330,7 +15103,7 @@ invoking remote function
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
@@ -12340,7 +15113,7 @@ invoking remote function
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -12366,22 +15139,22 @@ invoking remote function
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
-    "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -12401,7 +15174,7 @@ invoking remote function
 {
   "action": "disconnect",
   "eventId": 8,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "timeout": 60000
   }
@@ -12425,7 +15198,7 @@ invoking remote function
     "status": "ok",
     "published": false,
     "eventId": 8,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "disconnect"
   },
   "__outbound": true
@@ -12567,7 +15340,7 @@ invoking remote function
 ```json
 {
   "data": {
-    "id": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "id": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -12609,17 +15382,17 @@ invoking remote function
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -12642,25 +15415,25 @@ invoking remote function
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496845544093,
+      "modified": 1496845911202,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496845544093,
+    "modified": 1496845911202,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -12687,17 +15460,17 @@ invoking remote function
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -12722,25 +15495,25 @@ invoking remote function
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544157,
+      "modified": 1496845911313,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544157,
+    "modified": 1496845911313,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -12782,17 +15555,17 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -12832,25 +15605,25 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544171,
+      "modified": 1496845911321,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544171,
+    "modified": 1496845911321,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -12872,7 +15645,7 @@ invoking remote function
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -12907,7 +15680,7 @@ invoking remote function
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -12942,7 +15715,7 @@ invoking remote function
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -12977,7 +15750,7 @@ invoking remote function
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -13012,7 +15785,7 @@ invoking remote function
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -13048,7 +15821,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -13057,7 +15830,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -13080,7 +15853,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -13089,7 +15862,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -13112,7 +15885,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -13121,7 +15894,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -13144,7 +15917,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -13153,7 +15926,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -13176,7 +15949,7 @@ invoking remote function
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "on"
     }
   },
@@ -13185,7 +15958,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "on"
   }
 }
@@ -13718,17 +16491,17 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -14259,25 +17032,25 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -14319,17 +17092,17 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -14369,25 +17142,25 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496845544434,
+      "modified": 1496845911703,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496845544434,
+    "modified": 1496845911703,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -14549,7 +17322,7 @@ invoking remote function
 ```json
 {
   "data": {
-    "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -14589,7 +17362,7 @@ invoking remote function
   "eventId": 4,
   "path": "/mesh/schema/description",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "timeout": 60000,
     "options": {}
@@ -15120,25 +17893,25 @@ invoking remote function
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496845544424,
+      "modified": 1496845911681,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496845544424,
+    "modified": 1496845911681,
     "path": "/mesh/schema/description",
     "type": "response",
     "status": "ok",
     "published": false,
     "eventId": 4,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "get"
   },
   "__outbound": true
@@ -15161,7 +17934,7 @@ invoking remote function
   "eventId": 5,
   "path": "/SET@/_events/TestNode/componentName/event/name",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "event_type": "set",
     "meta": {
@@ -15200,7 +17973,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 5,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "on"
   },
   "__outbound": true
@@ -15210,7 +17983,6 @@ invoking remote function
 
 </details>
 
-invoking remote function 
 #### on
 <details>
 
@@ -15222,9 +17994,9 @@ invoking remote function
 {
   "action": "on",
   "eventId": 6,
-  "path": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*",
+  "path": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*",
   "data": null,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -15235,11 +18007,11 @@ invoking remote function
   "pathData": {
     "parts": [
       "/SET",
-      "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*"
+      "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*"
     ],
     "action": "SET"
   },
-  "key": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*"
+  "key": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*"
 }
 ```
 </p>
@@ -15260,7 +18032,7 @@ invoking remote function
     "type": "response",
     "published": false,
     "eventId": 6,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "on"
   },
   "__outbound": true
@@ -15283,13 +18055,13 @@ invoking remote function
   "eventId": 7,
   "path": "/_exchange/requests/TestNode/componentName/causeEventMethod",
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -15310,10 +18082,10 @@ invoking remote function
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
   "_meta": {
@@ -15321,9 +18093,9 @@ invoking remote function
     "channel": "/SET@/_exchange/requests/TestNode/componentName/*",
     "action": "/SET@/_exchange/requests/TestNode/componentName/causeEventMethod",
     "type": "data",
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "consistency": 2,
-    "publicationId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813-7"
+    "publicationId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1-7"
   },
   "protocol": "happn_1.3.0"
 }
@@ -15341,10 +18113,10 @@ invoking remote function
 ```json
 {
   "data": {
-    "callbackAddress": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "callbackAddress": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "args": [],
     "origin": {
-      "id": "1c32b5be-76c2-4446-b8d4-bdd445d8e813"
+      "id": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1"
     }
   },
   "_meta": {
@@ -15353,7 +18125,7 @@ invoking remote function
     "type": "response",
     "status": "ok",
     "eventId": 7,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "set"
   },
   "__outbound": true
@@ -15383,11 +18155,11 @@ invoking remote function
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "noStore": true,
     "meta": {
@@ -15413,7 +18185,7 @@ invoking remote function
 {
   "action": "set",
   "eventId": 15,
-  "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+  "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
   "data": {
     "status": "ok",
     "args": [
@@ -15423,16 +18195,16 @@ invoking remote function
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
-  "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+  "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
   "options": {
     "timeout": 10000,
     "noStore": true,
@@ -15460,9 +18232,9 @@ invoking remote function
     "channel": "/SET@/_events/TestNode/componentName/event/name",
     "action": "/SET@/_events/TestNode/componentName/event/name",
     "type": "data",
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "consistency": 2,
-    "publicationId": "18c09322-35b4-4544-90aa-8aff1d6779fd-14",
+    "publicationId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf-14",
     "componentVersion": "1.0.0"
   },
   "__outbound": true,
@@ -15491,13 +18263,13 @@ invoking remote function
     ]
   },
   "_meta": {
-    "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
-    "channel": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/*",
-    "action": "/SET@/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
+    "channel": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/*",
+    "action": "/SET@/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "type": "data",
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "consistency": 2,
-    "publicationId": "18c09322-35b4-4544-90aa-8aff1d6779fd-15"
+    "publicationId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf-15"
   },
   "__outbound": true,
   "protocol": "happn_1.3.0"
@@ -15523,7 +18295,7 @@ invoking remote function
       "type": "response",
       "status": "ok",
       "eventId": 14,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
@@ -15533,7 +18305,7 @@ invoking remote function
     "type": "response",
     "status": "ok",
     "eventId": 14,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -15559,22 +18331,22 @@ invoking remote function
       }
     ],
     "_meta": {
-      "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+      "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 15,
-      "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+      "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
       "action": "set"
     }
   },
   "_meta": {
-    "path": "/_exchange/responses/1c32b5be-76c2-4446-b8d4-bdd445d8e813/TestNode/componentName/causeEventMethod/1",
+    "path": "/_exchange/responses/5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1/TestNode/componentName/causeEventMethod/1",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 15,
-    "sessionId": "18c09322-35b4-4544-90aa-8aff1d6779fd",
+    "sessionId": "94d8ece3-9815-48cf-9e33-0e7854dfeccf",
     "action": "set"
   }
 }
@@ -15594,7 +18366,7 @@ invoking remote function
 {
   "action": "disconnect",
   "eventId": 8,
-  "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+  "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
   "options": {
     "timeout": 60000
   }
@@ -15618,7 +18390,7 @@ invoking remote function
     "status": "ok",
     "published": false,
     "eventId": 8,
-    "sessionId": "1c32b5be-76c2-4446-b8d4-bdd445d8e813",
+    "sessionId": "5b685d2a-7cf8-477d-a5a9-cb5c3f6735c1",
     "action": "disconnect"
   },
   "__outbound": true

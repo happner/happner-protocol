@@ -97,19 +97,34 @@ JobUtil.prototype.getJobs = function (protocol, version) {
 
             self.__api.event.componentName.on('event/name', function () {
             }, function (err) {
-                /*
-                 initiate the event
-                 */
+                if (err)
+                    return cb(err);
 
-                self.__addToOutput(__this, 'invoking remote function', null, true);
-
-                self.__api.exchange.componentName.causeEventMethod(function () {
-                    setTimeout(function () {
-
-                        cb(null, __this.output);
-                    }, 500);
-                });
+                cb(null, __this.output);
             })
+        })
+        .build();
+
+    /*
+     invoke remote function
+     */
+    var functionInvokeJob = this.__jobBuilder
+        .clear()
+        .withHeading('invoke remote function')
+        .withStep('invoke remote function')
+        .withDoFunc(function (params, cb) {
+
+            var __this = this;
+
+            self.__api.exchange.componentName.causeEventMethod(function () {
+                setTimeout(function (err) {
+
+                    if (err)
+                        return cb(err);
+
+                    cb(null, __this.output);
+                }, 500);
+            });
         })
         .build();
 
@@ -160,6 +175,7 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         meshClientJob,
         clientConnectJob,
         eventSubscribeJob,
+        functionInvokeJob,
         disconnectClientJob,
         happnerServerStopJob
     ];
