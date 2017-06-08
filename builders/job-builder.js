@@ -3,7 +3,7 @@ module.exports = JobBuilder;
 var configUtil = require('../utils/config-util');
 
 function JobBuilder() {
-    this.__output = [];
+    //this.__output = [];
 }
 
 JobBuilder.prototype.withHeading = function (heading) {
