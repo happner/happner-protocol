@@ -26,9 +26,14 @@ JobBuilder.prototype.withDoFunc = function (doFunc) {
     return this;
 };
 
+JobBuilder.prototype.withOutput = function (output) {
+    this.__output = output;
+    return this;
+};
+
 JobBuilder.prototype.clear = function () {
     //this.__output.length = 0;
-    this.__output = [];
+    //this.__output = [];
     this.__heading = null;
     this.__step = null;
     this.__parameters = null;

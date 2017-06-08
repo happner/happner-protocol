@@ -37,6 +37,9 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         .withDoFunc(function (params, cb) {
 
             var __this = this;
+
+            self.__addToOutput(__this, '~job-start~', null, true);
+
             self.__client = new HappnerClient();
 
             self.__model = {
@@ -60,6 +63,9 @@ JobUtil.prototype.getJobs = function (protocol, version) {
             self.__addToOutput(__this, 'creating model: ', self.__model, false);
 
             self.__api = self.__client.construct(self.__model);
+
+            self.__addToOutput(__this, '~job-end~', null, true);
+
             cb(null, __this.output);
         })
         .build();
@@ -74,9 +80,14 @@ JobUtil.prototype.getJobs = function (protocol, version) {
 
             var __this = this;
 
+            self.__addToOutput(__this, '~job-start~', null, true);
+
             self.__client.connect({secure: false, port: 50505})
                 .then(function () {
                     self.__clientToken = self.__client.token;
+
+                    self.__addToOutput(__this, '~job-end~', null, true);
+
                     cb(null, __this.output);
                 });
         })
@@ -92,10 +103,14 @@ JobUtil.prototype.getJobs = function (protocol, version) {
 
             var __this = this;
 
+            self.__addToOutput(__this, '~job-start~', null, true);
+
             self.__api.event.componentName.on('event/name', function () {
             }, function (err) {
                 if (err)
                     return cb(err);
+
+                self.__addToOutput(__this, '~job-end~', null, true);
 
                 cb(null, __this.output);
             })
@@ -112,11 +127,15 @@ JobUtil.prototype.getJobs = function (protocol, version) {
 
             var __this = this;
 
+            self.__addToOutput(__this, '~job-start~', null, true);
+
             self.__api.exchange.componentName.causeEventMethod(function () {
                 setTimeout(function (err) {
 
                     if (err)
                         return cb(err);
+
+                    self.__addToOutput(__this, '~job-end~', null, true);
 
                     cb(null, __this.output);
                 }, 500);
@@ -134,10 +153,14 @@ JobUtil.prototype.getJobs = function (protocol, version) {
 
             var __this = this;
 
+            self.__addToOutput(__this, '~job-start~', null, true);
+
             self.__client.disconnect(function (err, result) {
 
                 if (err)
                     return cb(err);
+
+                self.__addToOutput(__this, '~job-end~', null, true);
 
                 cb(null, __this.output);
             })
@@ -152,14 +175,18 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         .withStep('stopping happner server')
         .withDoFunc(function (params, cb) {
 
-            var _this = this;
+            var __this = this;
+
+            self.__addToOutput(__this, '~job-start~', null, true);
 
             self.__happner.stop(function (e) {
 
                 if (e)
                     return cb(e);
 
-                cb(null, _this.output);
+                self.__addToOutput(__this, '~job-end~', null, true);
+
+                cb(null, __this.output);
             })
         })
         .build();

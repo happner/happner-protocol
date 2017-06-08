@@ -50,11 +50,14 @@ DescribeProtocol.prototype.processJobs = function (callback) {
 
                 //console.log('CURRENT JOB OUTPUT LENGTH: ', job.output.length);
                 // iterate through outputs and filter
+                var endPos = 0;
+
                 job.output.forEach(function (item) {
 
-                    if (item.isText)
-                        self.__protocolReport.push(item.name + ' ' + (item.value != null ? item.value : ''));
-                    else {
+                    if (item.isText) {
+                        if(item.name != '~job-start~' && item.name != '~job-end~')
+                            self.__protocolReport.push(item.name + ' ' + (item.value != null ? item.value : ''));
+                    } else {
 
                         if (item.name)
                             self.__protocolReport.push('#### ' + item.name);
@@ -80,8 +83,17 @@ DescribeProtocol.prototype.processJobs = function (callback) {
 
                         self.__protocolReport.push('</p>\r\n');
                         self.__protocolReport.push('</details>\r\n');
+
+
                     }
+
+                    endPos++;
                 });
+
+                //cleanup
+                console.log('END POS: ', endPos);
+                job.output = job.output.slice(endPos);
+
             }
 
             jobCB();
