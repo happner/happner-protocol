@@ -61,7 +61,7 @@ JobUtil.prototype.getJobs = function () {
                 }
             };
 
-            self.__addToOutput(__this, 'creating model: ', self.__model, false, outputType.CLIENT_ONLY);
+            self.__addToOutput(__this, 'creating model: ', self.__model, outputType.CLIENT_ONLY);
 
             self.__api = self.__client.construct(self.__model);
 
@@ -178,6 +178,6 @@ JobUtil.prototype.getJobs = function () {
     return result;
 };
 
-JobUtil.prototype.__addToOutput = function (scope, name, value, isText, outputType) {
-    scope.output.push({name: name, value: value, isText: isText, outputType: outputType});
+JobUtil.prototype.__addToOutput = function (scope, name, value, outputType) {
+    scope.output.push({name: name, value: value, type: outputType});
 };
