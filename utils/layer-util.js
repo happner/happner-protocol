@@ -14,8 +14,6 @@ module.exports = {
                 if (!currentJob)
                     return cb(null, message);
 
-                console.log('JOB OUTPUT (IN): ', currentJob.output);
-
                 currentJob.output.push({
                     type: 'inbound',
                     value: message.raw,
@@ -39,10 +37,6 @@ module.exports = {
 
                 if (!currentJob)
                     return cb(null, message);
-
-                console.log('JOB OUTPUT (OUT): ', currentJob.output);
-
-                //currentJob.output.push('### server -> client');
 
                 var result = {type: 'outbound', value: null, isText:false, format: false};
 

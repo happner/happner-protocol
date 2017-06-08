@@ -27,7 +27,8 @@ JobBuilder.prototype.withDoFunc = function (doFunc) {
 };
 
 JobBuilder.prototype.clear = function () {
-    this.__output.length = 0;
+    //this.__output.length = 0;
+    this.__output = [];
     this.__heading = null;
     this.__step = null;
     this.__parameters = null;
@@ -40,15 +41,22 @@ JobBuilder.prototype.build = function () {
 
     var self = this;
 
-    var result = {
-        heading: this.__heading,
-        step: this.__step,
-        parameters: this.__parameters != null ? this.__parameters : {},
-        do: self.__doFunc,
-        output: this.__output
+    // closure magic - this ensures that the builder can be cleared without variable references being lost, in
+    // particular the 'do' function
+    var createResult = function () {
+        var result = {
+            heading: self.__heading,
+            step: self.__step,
+            parameters: self.__parameters != null ? self.__parameters : {},
+            do: self.__doFunc,
+            output: self.__output
+        };
+
+        result.parameters.config = configUtil.getConfig(result);
+        return result;
     };
 
-    result.parameters.config = configUtil.getConfig(result);
-
+    var result = createResult();
+    this.clear();
     return result;
 };

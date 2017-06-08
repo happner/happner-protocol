@@ -20,6 +20,7 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         .withDoFunc(function (params, cb) {
 
             var __this = this;
+            console.log('JOB SCOPE: ', __this);
 
             Happner.create(params.config, function (e, service) {
                 self.__happner = service;
@@ -32,11 +33,11 @@ JobUtil.prototype.getJobs = function (protocol, version) {
      create mesh client and api model
      */
     var meshClientJob = this.__jobBuilder
-        .clear()
         .withHeading('create happner client')
         .withStep('create happner client and construct api')
         .withDoFunc(function (params, cb) {
             var __this = this;
+            console.log('JOB SCOPE: ', __this);
 
             self.__client = new HappnerClient();
 
@@ -69,12 +70,12 @@ JobUtil.prototype.getJobs = function (protocol, version) {
      login
      */
     var clientConnectJob = this.__jobBuilder
-        .clear()
         .withHeading('connect happner client to happner server')
         .withStep('connect happner client to happner server')
         .withDoFunc(function (params, cb) {
 
             var __this = this;
+            console.log('JOB SCOPE: ', __this);
 
             self.__client.connect({secure: false, port: 50505})
                 .then(function () {
@@ -88,12 +89,12 @@ JobUtil.prototype.getJobs = function (protocol, version) {
      event subscribe
      */
     var eventSubscribeJob = this.__jobBuilder
-        .clear()
         .withHeading('subscribe to mesh event')
         .withStep('subscribe to mesh event')
         .withDoFunc(function (params, cb) {
 
             var __this = this;
+            console.log('JOB SCOPE: ', __this);
 
             self.__api.event.componentName.on('event/name', function () {
             }, function (err) {
@@ -109,12 +110,12 @@ JobUtil.prototype.getJobs = function (protocol, version) {
      invoke remote function
      */
     var functionInvokeJob = this.__jobBuilder
-        .clear()
         .withHeading('invoke remote function')
         .withStep('invoke remote function')
         .withDoFunc(function (params, cb) {
 
             var __this = this;
+            console.log('JOB SCOPE: ', __this);
 
             self.__api.exchange.componentName.causeEventMethod(function () {
                 setTimeout(function (err) {
@@ -132,7 +133,6 @@ JobUtil.prototype.getJobs = function (protocol, version) {
      disconnect client
      */
     var disconnectClientJob = this.__jobBuilder
-        .clear()
         .withHeading('disconnect from happner server')
         .withStep('disconnect from happner server')
         .withDoFunc(function (params, cb) {
@@ -153,7 +153,6 @@ JobUtil.prototype.getJobs = function (protocol, version) {
      stop happner server
      */
     var happnerServerStopJob = this.__jobBuilder
-        .clear()
         .withHeading('stopping happner server')
         .withStep('stopping happner server')
         .withDoFunc(function (params, cb) {

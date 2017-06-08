@@ -47,6 +47,8 @@ DescribeProtocol.prototype.processJobs = function (callback) {
                 self.__protocolReport.push('* ' + job.description + '*\r\n');
 
             if (job.output) {
+
+                //console.log('CURRENT JOB OUTPUT LENGTH: ', job.output.length);
                 // iterate through outputs and filter
                 job.output.forEach(function (item) {
 
