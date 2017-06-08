@@ -56,6 +56,9 @@ DescribeProtocol.prototype.processJobs = function (callback) {
                         self.__protocolReport.push(item.name + ' ' + (item.value != null ? item.value : ''));
                     else {
 
+                        if (item.name)
+                            self.__protocolReport.push('#### ' + item.name);
+
                         switch (item.type) {
                             case 'inbound':
                                 self.__protocolReport.push('#### ' + item.value.action);

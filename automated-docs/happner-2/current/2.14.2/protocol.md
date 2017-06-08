@@ -1,7 +1,7 @@
 # HAPPNER PROTOCOL
 * __PROTOCOL VERSION: undefined__
 * __HAPPNER VERSION:  2.14.2__
-* __RUN: 2017 June 08 10:30__
+* __RUN: 2017 June 08 10:53__
 ## start happner server
 
 #### configure-session
@@ -134,7 +134,7 @@
 ```json
 {
   "data": {
-    "id": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "id": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "protocol": "happn_1.3.0",
     "happn": {
       "name": "TestNode",
@@ -176,17 +176,17 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496910625306,
+      "modified": 1496912010243,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -209,25 +209,25 @@
     "can": "can",
     "_meta": {
       "created": 1495708248824,
-      "modified": 1496910625306,
+      "modified": 1496912010243,
       "path": "/test/write",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 4,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248824,
-    "modified": 1496910625306,
+    "modified": 1496912010243,
     "path": "/test/write",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 4,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "set"
   }
 }
@@ -254,17 +254,17 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496910625372,
+      "modified": 1496912010320,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -289,25 +289,25 @@
     "components": {},
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496910625372,
+      "modified": 1496912010320,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 5,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496910625372,
+    "modified": 1496912010320,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 5,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "set"
   }
 }
@@ -349,17 +349,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496910625374,
+      "modified": 1496912010324,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -399,25 +399,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496910625374,
+      "modified": 1496912010324,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 6,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496910625374,
+    "modified": 1496912010324,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 6,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "set"
   }
 }
@@ -439,7 +439,7 @@
   "eventId": 7,
   "path": "/SET@/_exchange/requests/TestNode/security/*",
   "data": null,
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -474,7 +474,7 @@
   "eventId": 8,
   "path": "/SET@/_exchange/requests/TestNode/api/*",
   "data": null,
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -509,7 +509,7 @@
   "eventId": 9,
   "path": "/SET@/_exchange/requests/TestNode/system/*",
   "data": null,
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -544,7 +544,7 @@
   "eventId": 10,
   "path": "/SET@/_exchange/requests/TestNode/rest/*",
   "data": null,
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -579,7 +579,7 @@
   "eventId": 11,
   "path": "/SET@/_exchange/requests/TestNode/componentName/*",
   "data": null,
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "event_type": "set",
     "count": 0,
@@ -615,7 +615,7 @@
       "type": "response",
       "published": false,
       "eventId": 7,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "on"
     }
   },
@@ -624,7 +624,7 @@
     "type": "response",
     "published": false,
     "eventId": 7,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "on"
   }
 }
@@ -647,7 +647,7 @@
       "type": "response",
       "published": false,
       "eventId": 8,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "on"
     }
   },
@@ -656,7 +656,7 @@
     "type": "response",
     "published": false,
     "eventId": 8,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "on"
   }
 }
@@ -679,7 +679,7 @@
       "type": "response",
       "published": false,
       "eventId": 9,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "on"
     }
   },
@@ -688,7 +688,7 @@
     "type": "response",
     "published": false,
     "eventId": 9,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "on"
   }
 }
@@ -711,7 +711,7 @@
       "type": "response",
       "published": false,
       "eventId": 10,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "on"
     }
   },
@@ -720,7 +720,7 @@
     "type": "response",
     "published": false,
     "eventId": 10,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "on"
   }
 }
@@ -743,7 +743,7 @@
       "type": "response",
       "published": false,
       "eventId": 11,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "on"
     }
   },
@@ -752,7 +752,7 @@
     "type": "response",
     "published": false,
     "eventId": 11,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "on"
   }
 }
@@ -1285,17 +1285,17 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496910625582,
+      "modified": 1496912010582,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -1826,25 +1826,25 @@
     },
     "_meta": {
       "created": 1495708248883,
-      "modified": 1496910625582,
+      "modified": 1496912010582,
       "path": "/mesh/schema/description",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 12,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248883,
-    "modified": 1496910625582,
+    "modified": 1496912010582,
     "path": "/mesh/schema/description",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 12,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "set"
   }
 }
@@ -1886,17 +1886,17 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496910625585,
+      "modified": 1496912010585,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
-  "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+  "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
   "options": {
     "timeout": 60000,
     "consistency": 2
@@ -1936,25 +1936,25 @@
     },
     "_meta": {
       "created": 1495708248885,
-      "modified": 1496910625585,
+      "modified": 1496912010585,
       "path": "/mesh/schema/config",
       "published": true,
       "type": "response",
       "status": "ok",
       "eventId": 13,
-      "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+      "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
       "action": "set"
     }
   },
   "_meta": {
     "created": 1495708248885,
-    "modified": 1496910625585,
+    "modified": 1496912010585,
     "path": "/mesh/schema/config",
     "published": true,
     "type": "response",
     "status": "ok",
     "eventId": 13,
-    "sessionId": "bd18c9f0-affc-4ef5-b381-c49fc3317451",
+    "sessionId": "fa84bfa7-bb6d-40d0-bcab-64b99e010e40",
     "action": "set"
   }
 }
@@ -1965,6 +1965,7 @@
 
 ## create happner client
 
+#### creating model: 
 <details>
 
 <summary>server -> client</summary>

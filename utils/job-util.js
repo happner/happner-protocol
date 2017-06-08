@@ -20,7 +20,6 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         .withDoFunc(function (params, cb) {
 
             var __this = this;
-            console.log('JOB SCOPE: ', __this);
 
             Happner.create(params.config, function (e, service) {
                 self.__happner = service;
@@ -36,9 +35,8 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         .withHeading('create happner client')
         .withStep('create happner client and construct api')
         .withDoFunc(function (params, cb) {
-            var __this = this;
-            console.log('JOB SCOPE: ', __this);
 
+            var __this = this;
             self.__client = new HappnerClient();
 
             self.__model = {
@@ -75,7 +73,6 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         .withDoFunc(function (params, cb) {
 
             var __this = this;
-            console.log('JOB SCOPE: ', __this);
 
             self.__client.connect({secure: false, port: 50505})
                 .then(function () {
@@ -94,7 +91,6 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         .withDoFunc(function (params, cb) {
 
             var __this = this;
-            console.log('JOB SCOPE: ', __this);
 
             self.__api.event.componentName.on('event/name', function () {
             }, function (err) {
@@ -115,7 +111,6 @@ JobUtil.prototype.getJobs = function (protocol, version) {
         .withDoFunc(function (params, cb) {
 
             var __this = this;
-            console.log('JOB SCOPE: ', __this);
 
             self.__api.exchange.componentName.causeEventMethod(function () {
                 setTimeout(function (err) {
