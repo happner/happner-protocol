@@ -2,6 +2,7 @@ var jsonUtil = require('./json-util');
 var TestError = require('../errors/test-error');
 var ephemeralUtil = require('./ephemeral-util');
 var ephemerals = ephemeralUtil.getEpehemerals();
+var outputType = require('../constants/constants').OUTPUT_TYPE;
 
 module.exports = {
 
@@ -15,9 +16,8 @@ module.exports = {
                     return cb(null, message);
 
                 currentJob.output.push({
-                    type: 'inbound',
+                    type: outputType.CLIENT_SERVER,
                     value: message.raw,
-                    isText: false,
                     format: false
                 });
 
@@ -38,7 +38,7 @@ module.exports = {
                 if (!currentJob)
                     return cb(null, message);
 
-                var result = {type: 'outbound', value: null, isText:false, format: false};
+                var result = {type: outputType.SERVER_CLIENT, value: null, format: false};
 
                 if (message.response)
                     result.value = message.response;

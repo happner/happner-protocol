@@ -1,5 +1,7 @@
 var Happner = require('happner-2');
 var HappnerClient = require('happner-client');
+var outputType = require('../constants/constants').OUTPUT_TYPE;
+
 
 module.exports = JobUtil;
 
@@ -59,7 +61,7 @@ JobUtil.prototype.getJobs = function () {
                 }
             };
 
-            self.__addToOutput(__this, 'creating model: ', self.__model, false);
+            self.__addToOutput(__this, 'creating model: ', self.__model, false, outputType.CLIENT_ONLY);
 
             self.__api = self.__client.construct(self.__model);
 
@@ -176,6 +178,6 @@ JobUtil.prototype.getJobs = function () {
     return result;
 };
 
-JobUtil.prototype.__addToOutput = function (scope, name, value, isText) {
-    scope.output.push({name: name, value: value, isText: isText});
+JobUtil.prototype.__addToOutput = function (scope, name, value, isText, outputType) {
+    scope.output.push({name: name, value: value, isText: isText, outputType: outputType});
 };
