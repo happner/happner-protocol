@@ -2,7 +2,6 @@ var Happner = require('happner-2');
 var HappnerClient = require('happner-client');
 var outputType = require('../constants/constants').OUTPUT_TYPE;
 
-
 module.exports = JobUtil;
 
 function JobUtil(jobBuilder) {

@@ -7,6 +7,7 @@ var JobUtil = require('../../utils/job-util');
 var ReportUtil = require('../../utils/report-util');
 
 var DescribeProtocol = require('../../protocol-describer');
+var outputType = require('../../constants/constants').OUTPUT_TYPE;
 
 describe('unit - describe tests', function () {
 
@@ -40,37 +41,37 @@ describe('unit - describe tests', function () {
             done();
         });
 
-        context('executeDosing', function () {
 
-            it('successfully executes', function (done) {
+        it('successfully executes', function (done) {
 
-                var self = this;
+            var self = this;
 
-                var describeProtocol = new DescribeProtocol(self.__pkg, self.__jobUtil, self.__reportUtil);
-                describeProtocol.processJobs(function (err, result) {
+            var describeProtocol = new DescribeProtocol(self.__pkg, self.__jobUtil, self.__reportUtil);
+            describeProtocol.processJobs(function (err, result) {
 
-                    if (err)
-                        done(err);
+                if (err)
+                    done(err);
 
-                    expect(self.__jobUtil.recorder['getJobs'].calls).to.equal(1);
-                    expect(self.__reportUtil.recorder['writeReportToFile'].calls).to.equal(1);
+                expect(self.__jobUtil.recorder['getJobs'].calls).to.equal(1);
+                expect(self.__reportUtil.recorder['writeReportToFile'].calls).to.equal(1);
 
-                    done();
-                });
+                done();
             });
         });
+    });
 
-        var createMockJobs = function (jobBuilder) {
-            return [
+    var createMockJobs = function (jobBuilder) {
+
+        var outputs = [];
+
+        return {
+            outputs: outputs, jobs: [
                 jobBuilder
                     .withHeading('test job 1')
                     .withStep('test step 1')
                     .withDoFunc(function (params, cb) {
-
-                        var __this = this;
-
-                        __this.output.push('TEST OUTPUT');
-                        cb(null, __this.output);
+                        outputs.push({name: 'TEST OUTPUT', value: null, type: outputType.INFO});
+                        cb(null);
                     })
                     .build(),
 
@@ -79,16 +80,12 @@ describe('unit - describe tests', function () {
                     .withHeading('test job 2')
                     .withStep('test step 2')
                     .withDoFunc(function (params, cb) {
-
-                        var __this = this;
-
-                        __this.output.push('TEST OUTPUT 2');
-                        cb(null, __this.output);
+                        outputs.push({name: 'TEST OUTPUT 2', value: null, type: outputType.INFO});
+                        cb(null);
                     })
                     .build()
-            ];
+            ]
         };
-
-    });
+    };
 });
 

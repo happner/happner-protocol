@@ -17,21 +17,17 @@ describe('unit - describe tests', function () {
             done();
         });
 
-        context('executeDosing', function () {
+        it('successfully executes', function (done) {
 
-            it('successfully executes', function (done) {
+            var describeProtocol = new DescribeProtocol();
+            describeProtocol.processJobs(function (err, result) {
 
-                var self = this;
+                if (err)
+                    done(err);
 
-                var describeProtocol = new DescribeProtocol();
-                describeProtocol.processJobs(function (err, result) {
-
-                    if (err)
-                        done(err);
-
-                    done();
-                });
+                done();
             });
+
         });
     });
 });
